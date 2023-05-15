@@ -1,0 +1,122 @@
+
+.cabecera {
+    position: fixed ;
+    z-index: 3;
+}
+/*estilo del banner*/
+.banner{
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner h3{
+    font-size: 40px;
+    transform: translateY(-400px);
+}
+.banner .btncatalogo{
+    transform: translateY(-370px);
+}
+.banner .btncatalogo a{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 20px;
+}
+/*estilo de productos*/
+
+.contenedor{
+    width: 100%;
+    
+}
+.contenedor .contenido {
+    width: 90%;
+    padding: 5%;
+    overflow: auto;
+}
+.contenedor .contenido .cont{
+    width: 30.3%;
+    padding-right: 3%;
+    float: left;
+}
+.contenedor .contenido .cont .obj{
+    width: 100%;
+    position: relative;
+}
+.contenedor .contenido .cont .obj a img{
+    width: 100%;
+    background-color: #ECEEF0;
+}
+.contenedor .contenido .cont .obj .top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease-in-out ;
+}
+
+
+/*HOVER DE IMAGENES*/
+.contenedor .contenido .cont .obj .top:hover{
+    opacity: 0;
+}
+
+
+/*ESTILO DE COTENEDOR GENERO*/
+.contenedor_genero{
+    width: 100%;
+}
+.contenedor_genero .titulo{
+    text-align: center;
+}
+.contenedor_genero .titulo h3{
+    font-size: 30px;
+}
+.contenedor_genero .contenido{
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    overflow: auto;
+}
+.contenedor_genero .contenido .cont{
+    width: 46%;
+    padding: 2%;
+    float: left;
+}
+.contenedor_genero .contenido .cont .obj{
+    background-color: #ECEEF0;
+    width: 100%;
+}
+.contenedor_genero .contenido .cont .obj img{
+    width: 100%;
+}
+.contenedor_genero .contenido .cont .titulo{
+    width: 100%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+.contenedor_genero .contenido .cont .btn{
+    text-align: center;
+    width: 100%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+.contenedor_genero .contenido .cont .btn a{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+

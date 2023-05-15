@@ -1,0 +1,93 @@
+
+/*estilo del submenu*/
+.lista_marca {
+  width: 100%;
+}
+.catalogo{
+  width: 95%;
+  padding: 2.5%;
+  overflow: auto;
+}
+
+.lista_marca .marcas {
+  width: 50%;
+  height: 150px;
+  margin-left: 25%;
+}
+.lista_marca .marcas ul {
+  margin-left: 18%;
+}
+.lista_marca .marcas ul li {
+  list-style: none;
+  padding-right: 50px;
+}
+.lista_marca .marcas li {
+  float: left;
+}
+.lista_marca .marcas li img {
+  margin-top: 25px;
+  width: 120px;
+  height: 80px;
+  border: solid rgb(0, 0, 0) 5px;
+  border-radius: 50px;
+}
+/*Estilo de filtro*/
+.catalogo .filtro {
+  width: 18%;
+  background-color: #ECEFF0;
+  float: left;
+}
+.catalogo .filtro .c_filtro{
+  width: 80%;
+  padding: 10%;
+}
+
+/*Estilo de Productos*/
+.catalogo .productos {
+  width: 80%;
+  float: right;
+}
+
+.catalogo .productos .contenido {
+  width: 100%;
+  overflow: auto;
+
+}
+.catalogo .productos .contenido .ropa{
+  width: 30.3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  float: left;
+  text-align: center;
+}
+.catalogo .productos .contenido .ropa .obj img{
+  width: 100%;
+}
+
+/*Estilo listas*/
+.listas_siguientes {
+  width: 100%;
+}
+.listas_siguientes .contenido{
+  width: 20%;
+  padding-top: 2.5%;
+  padding-bottom: 5%;
+  padding-left: 50%;
+  padding-right: 30%;
+  overflow: auto;
+}
+.listas_siguientes .contenido ul{
+  width: 100%;
+}
+.listas_siguientes .contenido ul li{
+  float: left;
+  width: 20%;
+  list-style: none;
+}
+.listas_siguientes .contenido ul li a{
+  text-decoration: none;
+}
+.listas_siguientes .contenido .seleccion{
+  font-weight: bolder;
+  text-decoration: underline;
+}

@@ -1,0 +1,104 @@
+.contenedor{
+    width: 100%;
+}
+.contenedor .contenedor2{
+    width: 95%;
+    padding: 2.5%;
+    overflow: auto;
+}
+.contenedor .tg_confi{
+    width: 80%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 2.5%;
+}
+.contenedor .tg_confi h3{
+    font-size: 40px;
+}
+.contenedor .t_confi{
+    width: 40%;
+    float: left;
+}
+.contenedor .t_confi .dt_confi{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.contenedor .t_confi .dt_confi ul{
+    list-style: none;
+}
+.contenedor .t_confi .dt_confi ul li{
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.contenedor .t_confi .dt_confi ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.contenedor .t_confi .dt_confi .select{
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.contenedor .c_detallescuenta{
+    width: 60%;
+    float: right;
+}
+.c_detallescuenta .detalle{
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+}
+.c_detallescuenta .detalle .form_cuenta input{
+    width: 90%;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.c_detallescuenta .detalle .form_cuenta select{
+    width: 90%;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.c_detallescuenta .detalle h3{
+    font-size: 25px;
+    padding: 1.5%;
+}
+.c_detallescuenta .dc_botones{
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.c_detallescuenta .dc_botones .btn1{
+    text-align: right;
+}
+.c_detallescuenta .dc_botones .btn1 a{
+    background-color: rgb(152, 152, 152);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    line-height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+.c_detallescuenta .dc_botones .btn2{
+    text-align: center;
+}
+.c_detallescuenta .dc_botones .btn2 a{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 140px;
+    padding-right: 140px;
+    border-radius: 10px;
+}
