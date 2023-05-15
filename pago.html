@@ -1,10 +1,13 @@
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Pago</title>
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <title>Pago</title>
+  <link rel="stylesheet" href="css/style_pago.css">
+</head>
+
+<body>
+  <div class="contenido_pago">
     <div class="form">
       <div class="logo">
         <a href="index.html"><img src="imagenes/logo.png" alt="" /></a>
@@ -12,9 +15,12 @@
       <nav class="migas_pan">
         <ol>
           <li class="migas"><a href="">Carrito</a></li>
+          <li class="signo">&#62;</li>
           <li class="migas"><a href="">Información</a></li>
+          <li class="signo">&#62;</li>
           <li class="migas"><a href="">Envíos</a></li>
-          <li class="migas"><a href="">Pago</a></li>
+          <li class="signo">&#62;</li>
+          <li class="migas_select">Pago</li>
         </ol>
       </nav>
       <!--Contenido de contacto, enviar y envios-->
@@ -23,33 +29,21 @@
         <div class="contenido">
           <!--Informacion de contacto -->
           <div class="informacion">
-            <div class="contacto">
-              <div>Contacto</div>
-              <div class="correo">correo@gmail</div>
-            </div>
-            <div class="D_Cambiar">
-              <a href="">Cambiar</a>
-            </div>
+            <div class="texto">Contacto</div>
+            <div class="correo">correo@gmail</div>
+            <div class="d_cambiar"><a href="">Cambiar</a></div>
           </div>
           <!--Informacion de Enviar a-->
-          <div class="enviar_a">
-            <div class="enviar">
-              <div>Enviar a</div>
-              <div class="direccion">Lorem ipsum dolor sit amet.</div>
-            </div>
-            <div class="D_Cambiar">
-              <a href="">Cambiar</a>
-            </div>
+          <div class="informacion">
+            <div class="texto">Enviar a</div>
+            <div class="correo">jiron junin 345, lima02002,Lima,Perú</div>
+            <div class="d_cambiar"><a href="">Cambiar</a></div>
           </div>
           <!--Informacion de Metodo envio-->
-          <div class="menvio">
-            <div class="metodo">
-              <div>Método</div>
-              <div class="direccion">Lorem ipsum dolor sit amet.</div>
-            </div>
-            <div class="D_Cambiar">
-              <a href="">Cambiar</a>
-            </div>
+          <div class="informacion">
+            <div class="texto">Método</div>
+            <div class="correo">Envío regular - 1 a 3 días hábiles - Gratis</div>
+            <div class="d_cambiar"><a href="">Cambiar</a></div>
           </div>
         </div>
         <!--Contenido de Pago-->
@@ -59,17 +53,35 @@
             <h4>Todas las transacciones son seguras y están encriptadas</h4>
           </div>
           <div class="metodos_pago">
-            <div class="deposito_bancario">
-              <div class="btn_select"></div>
-              <div class="nombre"><span>Depósito Bnacario</span></div>
+            <div class="cont">
+              <button class="acordion">Depósito Bancario</button>
+              <div class="panel">
+                <p>Puedes realizar tus pagos realizando un depósito bancario a nombre de RELEVANT en nuestras cuentas
+                  de:
+                  BCP:
+                  Cuenta Corriente Soles: 000-0000000-0-00
+                </p>
+              </div>
             </div>
-            <div class="yape_plin">
-              <div class="btn_select"></div>
-              <div class="nombre"><span>YapePlin</span></div>
+            <div class="cont">
+              <button class="acordion">Yape/Plin</button>
+              <div class="panel">
+                <p>Puedes realizar tus pagos realizando un depósito bancario a nombre de RELEVANT en nuestras cuentas
+                  de:
+                  BCP:
+                  Cuenta Corriente Soles: 000-0000000-0-00
+                </p>
+              </div>
             </div>
-            <div class="paypal">
-              <div class="btn_select"></div>
-              <div class="nombre"><span>Paypal</span></div>
+            <div class="cont">
+              <button class="acordion">Paypal</button>
+              <div class="panel">
+                <p>Puedes realizar tus pagos realizando un depósito bancario a nombre de RELEVANT en nuestras cuentas
+                  de:
+                  BCP:
+                  Cuenta Corriente Soles: 000-0000000-0-00
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -77,13 +89,14 @@
       <!--Contenido de botones-->
       <div class="botones">
         <div class="btnenvios">
-          <a href="Envios.html">Volver a envíos</a>
+          <a href="Envios.html">&#60;	Volver a envíos</a>
         </div>
-        <button class="btn_cpago">
+        <div class="btn_cpago">
           <a href="comprobante.html">Finalizar el pedido</a>
-        </button>
+        </div>
       </div>
       <div class="pie">
+        <hr>
         <div class="submenu">
           <ul>
             <li><a href="reembolso.html">Política de reembolso</a></li>
@@ -96,33 +109,36 @@
     </div>
     <div class="product">
       <div class="tproductos">
-        <table>
-          <tr>
-            <td><a href=""></a></td>
-            <th>
-              <span>Short deportivo de compresion para hombre</span>
-              <span>S/Negro</span>
-            </th>
-            <td>S/ 89.90</td>
-          </tr>
-        </table>
+        <div class="contimg">
+          <img src="imagenes/short.jpg" alt="">
+        </div>
+        <div class="context">
+          <p>Short deportivo de compresion para hombre</p>
+          <p>S/Negro</p>
+        </div>
+        <div class="contprecio">
+          <p>S/ 89.90</p>
+        </div>
       </div>
       <div class="montos">
-        <table>
-          <tr>
-            <th>Subtotal</th>
-            <td>S/ 89.90</td>
-          </tr>
-          <tr>
-            <th>Envíos</th>
-            <td>39.90</td>
-          </tr>
-          <tr>
-            <th>Total</th>
-            <td>S/ 129.80</td>
-          </tr>
-        </table>
+        <hr>
+        <div class="cont_monto">
+          <div class="text"><p>Subtotal</p></div>
+          <div class="precio"><p>S/ 89.90</p></div>
+        </div>
+        <div class="cont_monto">
+          <div class="text"><p>Envíos</p></div>
+          <div class="precio"><p>S/ 39.90</p></div>
+        </div>
+        <hr>
+        <div class="cont_monto">
+          <div class="text"><p>Total</p></div>
+          <div class="precio"><p>S/ 129.80</p></div>
+        </div>
       </div>
     </div>
-  </body>
+  </div>
+  <script src="js/pago.js"></script>
+</body>
+
 </html>
