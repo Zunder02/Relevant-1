@@ -1,3 +1,16 @@
+/*barra de busqueda*/
+.barra_busqueda{
+  width: 95%;
+  padding: 2.5%;
+  text-align: center;
+}
+.barra_busqueda input{
+  width: 97%;
+  padding: 1.5%;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
 
 /*estilo del submenu*/
 .lista_marca {
@@ -31,34 +44,28 @@
   border: solid rgb(0, 0, 0) 5px;
   border-radius: 50px;
 }
-/*Estilo de filtro*/
-.catalogo .filtro {
-  width: 18%;
-  background-color: #ECEFF0;
-  float: left;
-}
-.catalogo .filtro .c_filtro{
-  width: 80%;
-  padding: 10%;
-}
 
 /*Estilo de Productos*/
 .catalogo .productos {
-  width: 80%;
-  float: right;
+  width: 100%;
 }
 
 .catalogo .productos .contenido {
   width: 100%;
-  overflow: auto;
+  overflow: hidden;
 
 }
 .catalogo .productos .contenido .ropa{
-  width: 30.3%;
-  padding-right: 3%;
-  padding-bottom: 3%;
+  width: 17%;
+  padding: 0.5%;
+  margin: 1%;
   float: left;
   text-align: center;
+  background-color: #ECEFF0;
+  border-radius: 20px;
+}
+.catalogo .productos .contenido .ropa:hover{
+  transform: scale(1.1);
 }
 .catalogo .productos .contenido .ropa .obj img{
   width: 100%;

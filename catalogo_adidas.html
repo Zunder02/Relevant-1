@@ -27,6 +27,9 @@
       <a href=""><img src="imagenes/bolsa.png" alt="" /></a>
     </div>
   </div>
+  <div class="barra_busqueda">
+    <input type="text" id="search-input" placeholder="Search..">
+  </div>
   <div class="lista_marca">
     <div class="marcas">
       <ul>
@@ -42,30 +45,16 @@
       </ul>
     </div>
   </div>
+
   <div class="catalogo">
-    <div class="filtro">
-      <div class="c_filtro">
-        <div class="genero">
-          <label>Género</label><br />
-          <input type="radio" name="sexo" />Maculino <br />
-          <input type="radio" name="sexo" />Femenino <br />
-        </div>
-        <div class="tipo">
-          <label>Tipo</label><br />
-          <input type="checkbox" name="Polo" />Polo <br />
-          <input type="checkbox" name="Shorts" />Shorts <br />
-          <input type="checkbox" name="Zapatillas" />Zapatillas <br />
-        </div>
-      </div>
-    </div>
     <div class="productos">
-      <div class="contenido">
+      <div class="contenido" id="result-container">
         <div class="ropa">
           <div class="obj">
             <a href=""><img src="imagenes/img_adidas/zapa4.webp" alt="" /></a>
           </div>
           <a href="">
-            <span>Polo estampado 2</span>
+            <span>Polo estampado 1</span>
             <div class="precio">
               <span>S/. 20.00 PEN</span>
             </div>
@@ -87,7 +76,7 @@
             <a href=""><img src="imagenes/img_adidas/m_1.webp" alt="" /></a>
           </div>
           <a href="">
-            <span>Polo estampado 2</span>
+            <span>Polo estampado 3</span>
             <div class="precio">
               <span>S/. 20.00 PEN</span>
             </div>
@@ -98,7 +87,7 @@
             <a href=""><img src="imagenes/img_adidas/m_buzo1.webp" alt="" /></a>
           </div>
           <a href="">
-            <span>Polo estampado 2</span>
+            <span>Polo estampado 4</span>
             <div class="precio">
               <span>S/. 20.00 PEN</span>
             </div>
@@ -109,7 +98,7 @@
             <a href=""><img src="imagenes/img_adidas/m_buzo2.webp" alt="" /></a>
           </div>
           <a href="">
-            <span>Polo estampado 2</span>
+            <span>Polo estampado 5</span>
             <div class="precio">
               <span>S/. 20.00 PEN</span>
             </div>
@@ -120,7 +109,7 @@
             <a href=""><img src="imagenes/img_adidas/m_casaca.webp" alt="" /></a>
           </div>
           <a href="">
-            <span>Polo estampado 2</span>
+            <span>Polo estampado 6</span>
             <div class="precio">
               <span>S/. 20.00 PEN</span>
             </div>
@@ -131,7 +120,7 @@
             <a href=""><img src="imagenes/img_adidas/m_polo1.webp" alt="" /></a>
           </div>
           <a href="">
-            <span>Polo estampado 2</span>
+            <span>Polo estampado 7</span>
             <div class="precio">
               <span>S/. 20.00 PEN</span>
             </div>
@@ -142,7 +131,7 @@
             <a href=""><img src="imagenes/img_adidas/m_polo2.webp" alt="" /></a>
           </div>
           <a href="">
-            <span>Polo estampado 2</span>
+            <span>Polo estampado 8</span>
             <div class="precio">
               <span>S/. 20.00 PEN</span>
             </div>
@@ -153,7 +142,7 @@
             <a href=""><img src="imagenes/img_adidas/m_polo3.webp" alt="" /></a>
           </div>
           <a href="">
-            <span>Polo estampado 2</span>
+            <span>Polo estampado 9</span>
             <div class="precio">
               <span>S/. 20.00 PEN</span>
             </div>
@@ -164,7 +153,7 @@
             <a href=""><img src="imagenes/img_adidas/m_zapa1.webp" alt="" /></a>
           </div>
           <a href="">
-            <span>Polo estampado 2</span>
+            <span>Polo estampado 10</span>
             <div class="precio">
               <span>S/. 20.00 PEN</span>
             </div>
@@ -175,7 +164,7 @@
             <a href=""><img src="imagenes/img_adidas/m_zapa2.webp" alt="" /></a>
           </div>
           <a href="">
-            <span>Polo estampado 2</span>
+            <span>Polo estampado 11</span>
             <div class="precio">
               <span>S/. 20.00 PEN</span>
             </div>
@@ -186,7 +175,7 @@
             <a href=""><img src="imagenes/img_adidas/m_zapa3.webp" alt="" /></a>
           </div>
           <a href="">
-            <span>Polo estampado 2</span>
+            <span>Polo estampado 12</span>
             <div class="precio">
               <span>S/. 20.00 PEN</span>
             </div>
@@ -197,7 +186,7 @@
             <a href=""><img src="imagenes/img_adidas/m_zapa4.webp" alt="" /></a>
           </div>
           <a href="">
-            <span>Polo estampado 2</span>
+            <span>Polo estampado 13</span>
             <div class="precio">
               <span>S/. 20.00 PEN</span>
             </div>
@@ -216,6 +205,7 @@
       </ul>
     </div>
   </div>
+  <script src="js/catalogo.js"></script>
 </body>
 
 </html>
