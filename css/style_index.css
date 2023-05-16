@@ -4,35 +4,28 @@
     z-index: 3;
 }
 /*estilo del banner*/
-.banner{
+.banner {
     width: 100%;
-    text-align: center;
     height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
-.banner img{
+
+.banner img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
-.banner h3{
-    font-size: 40px;
-    transform: translateY(-400px);
+.banner .activo{
+    opacity: 1;
 }
-.banner .btncatalogo{
-    transform: translateY(-370px);
-}
-.banner .btncatalogo a{
-    border-radius: 10px;
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    padding-left: 80px;
-    padding-right: 80px;
-    font-size: 20px;
-}
-/*estilo de productos*/
 
+/*estilo de productos*/
 .contenedor{
     width: 100%;
     

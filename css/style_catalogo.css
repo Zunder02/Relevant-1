@@ -46,16 +46,7 @@
 }
 
 /*Estilo de Productos*/
-.catalogo .productos {
-  width: 100%;
-}
-
-.catalogo .productos .contenido {
-  width: 100%;
-  overflow: hidden;
-
-}
-.catalogo .productos .contenido .ropa{
+.catalogo .ropa{
   width: 17%;
   padding: 0.5%;
   margin: 1%;
@@ -64,11 +55,14 @@
   background-color: #ECEFF0;
   border-radius: 20px;
 }
-.catalogo .productos .contenido .ropa:hover{
+.catalogo .ropa:hover{
   transform: scale(1.1);
 }
-.catalogo .productos .contenido .ropa .obj img{
+.catalogo .ropa .obj img{
   width: 100%;
+}
+.catalogo .ropa a{
+  text-decoration: none;
 }
 
 /*Estilo listas*/

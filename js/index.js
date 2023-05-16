@@ -1,19 +1,12 @@
-let slideIndex = 0;
-showSlides();
+window.addEventListener("DOMContentLoaded", function () {
+  var imagenes = document.querySelectorAll("#banner img");
+  var indice = 0;
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+  function mostrarImagenSiguiente() {
+    imagenes[indice].classList.remove("activo");
+    indice = (indice + 1) % imagenes.length;
+    imagenes[indice].classList.add("activo");
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
+
+  setInterval(mostrarImagenSiguiente, 3000);
+});
