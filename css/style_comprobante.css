@@ -105,6 +105,9 @@
     width: 96%;
     padding: 2%;
 }
+.contenido_comprobante .desc_confirma_pedido .informacion_cliente .titulo h3{
+    font-size: 20px;
+}
 .contenido_comprobante .desc_confirma_pedido .informacion_cliente .left{
     width: 46%;
     padding: 2%;
