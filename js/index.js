@@ -10,3 +10,18 @@ window.addEventListener("DOMContentLoaded", function () {
 
   setInterval(mostrarImagenSiguiente, 3000);
 });
+
+/*menu*/
+var fixedDiv = document.getElementById("cabe");
+
+window.addEventListener("scroll", function() {
+  var scrollPosition = window.scrollY;
+
+  if (scrollPosition > 100) {
+    fixedDiv.style.backgroundColor = "black";
+    fixedDiv.style.transition ="1s"
+  } else {
+    fixedDiv.style.backgroundColor = "transparent";
+  }
+});
+
