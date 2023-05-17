@@ -1,94 +1,125 @@
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>RelevantCuenta</title>
+    <link rel="stylesheet" href="css/style_menu.css" />
+    <link rel="stylesheet" href="css/style_conf_cuenta.css" />
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<title>RelevantCuenta</title>
-	<link rel="stylesheet" href="css/style_menu.css" />
-	<link rel="stylesheet" href="css/style_conf_cuenta.css" />
-</head>
-
-<body class="Fondo">
-	<div class="cabecera">
-		<div class="logo">
-			<img src="imagenes/logo.png" alt="" />
-			<h2>Relevant</h2>
-		</div>
-		<div class="menu">
-			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="catalogo.html">Tienda</a></li>
-				<li><a href="nosotros.html">Nosotros</a></li>
-				<li><a href="contacto.html">Contacto</a></li>
-			</ul>
-		</div>
-		<div class="menu_logo">
-			<a href=""><img src="imagenes/bolsa.png" alt="" /></a>
-			<a href="conf_cuenta.html"><img src="imagenes/logo_usuario.png" alt="" /></a>
-		  </div>
-	</div>
-	<div class="contenedor">
-		<div class="contenedor2">
-			<div class="tg_confi">
-				<h3>Configuración</h3>
-			</div>
-			<hr>
-			<div class="t_confi">
-				<div class="dt_confi">
-					<ul>
-						<li><a href="" class="select"><img src="" alt="" />Detalles de la cuenta</a></li>
-						<li><a href="conf_direccionenvio.html"><img src="" alt="" />Direcciones de entrega</a></li>
-					</ul>
-					
-				</div>
-			</div>
-			<div class="c_detallescuenta">
-				<div class="detalle">
-					<h3>Detalles de la cuenta</h3>
-					<div class="form_cuenta">
-						<input type="text" name="Nombre" placeholder="*Nombre" /><br />
-						<input type="text" name="Apellido" placeholder="*Apellido" /><br />
-						<select name="Tipo_documento" id="">
-							<option>DNI</option>
-							<option>Pasaporte</option>
-						</select><br>
-						<input type="text" name="numero_docu" placeholder="*Número de documento" /><br />
-						<input type="text" name="contraseña" placeholder="*Contraseña" /><br />
-						<input type="text" name="correo_electro" placeholder="*Correo electrónico" /><br />
-						<input type="text" name="fecha_naci" placeholder="*Fecha de nacimiento" /><br />
-					</div>
-				</div>
-				<div class="dc_botones">
-					<div class="btn1">
-						<a href="">Desactivar</a>
-					</div>
-					<div class="btn2">
-						<a href="">Guardar</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="pie">
-		<div class="titulo">
-			<h3>Siguenos en:</h3>
-		</div>
-		<div class="submenu">
-			<ul>
-				<li>
-					<a href=""><img src="imagenes/fb.png" alt="" /></a>
-				</li>
-				<li>
-					<a href=""><img src="imagenes/insta.png" alt="" /></a>
-				</li>
-				<li>
-					<a href=""><img src="imagenes/twitter.png" alt="" /></a>
-				</li>
-			</ul>
-		</div>
-		<div class="derecho">
-			<p>&copy; RELEVANT - Todos los derechos reservados</p>
-		</div>
-	</div>
-</body>
-
+  <body class="Fondo">
+    <div class="cabecera">
+      <div class="logo">
+        <img src="imagenes/logo.png" alt="" />
+        <h2>Relevant</h2>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="catalogo.html">Tienda</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="menu_logo">
+        <a href=""><img src="imagenes/bolsa.png" alt="" /></a>
+        <div class="btn_iniciar">
+          <img src="imagenes/logo_usuario.png" alt="" />
+          <div class="contenido_btniniciar">
+            <a href="">Iniciar Sesión</a>
+            <a href="">Regístrate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contenedor">
+      <div class="contenedor2">
+        <div class="tg_confi">
+          <h3>Configuración</h3>
+        </div>
+        <hr />
+        <div class="t_confi">
+          <div class="dt_confi">
+            <ul>
+              <li>
+                <a href="" class="select"
+                  ><img src="" alt="" />Detalles de la cuenta</a
+                >
+              </li>
+              <li>
+                <a href="conf_direccionenvio.html"
+                  ><img src="" alt="" />Direcciones de entrega</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="c_detallescuenta">
+          <div class="detalle">
+            <h3>Detalles de la cuenta</h3>
+            <div class="form_cuenta">
+              <input type="text" name="Nombre" placeholder="*Nombre" /><br />
+              <input
+                type="text"
+                name="Apellido"
+                placeholder="*Apellido"
+              /><br />
+              <select name="Tipo_documento" id="">
+                <option>DNI</option>
+                <option>Pasaporte</option></select
+              ><br />
+              <input
+                type="text"
+                name="numero_docu"
+                placeholder="*Número de documento"
+              /><br />
+              <input
+                type="text"
+                name="contraseña"
+                placeholder="*Contraseña"
+              /><br />
+              <input
+                type="text"
+                name="correo_electro"
+                placeholder="*Correo electrónico"
+              /><br />
+              <input
+                type="text"
+                name="fecha_naci"
+                placeholder="*Fecha de nacimiento"
+              /><br />
+            </div>
+          </div>
+          <div class="dc_botones">
+            <div class="btn1">
+              <a href="">Desactivar</a>
+            </div>
+            <div class="btn2">
+              <a href="">Guardar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pie">
+      <div class="titulo">
+        <h3>Siguenos en:</h3>
+      </div>
+      <div class="submenu">
+        <ul>
+          <li>
+            <a href=""><img src="imagenes/fb.png" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="imagenes/insta.png" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="imagenes/twitter.png" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="derecho">
+        <p>&copy; RELEVANT - Todos los derechos reservados</p>
+      </div>
+    </div>
+  </body>
 </html>
