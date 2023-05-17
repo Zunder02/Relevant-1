@@ -107,7 +107,6 @@
 .btn_iniciar:hover .contenido_btniniciar{
     display: block;
 }
-
 /*Estilo Pie*/
 .pie {
     width: 95%;
@@ -196,6 +195,98 @@
     border-radius: 10px;
 }
 .btn_banner a:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+/*MODAL*/
+@keyframes slideIn {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideOut {
+    0% {
+      transform: translateY();
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+dialog{
+    width: 600px;
+    height: 750px;
+    background-color: #ffffff;
+    border: 10px solid #000000;
+    top: 1%;
+    left: 30%;
+    animation: slideIn 0.5s ease;
+}
+dialog.closing {
+    animation: slideOut 0.5s ease; /* Animación de desaparición */
+  }
+dialog[open]{
+    display: block;
+}
+dialog::backdrop{
+    background-color: rgba(0, 0, 0, .55);
+}
+dialog .modal_img{
+    width: 100%;
+    height: 750px;
+}
+dialog .modal_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.modal_img .txt{
+    width: 80%;
+    padding: 5%;
+    margin: 5%;
+    transform: translateY(-300px);
+    background-color: rgba(0, 0, 0, .55);
+    text-align: center;
+}
+.modal_img .txt p{
+    color: #ffffff;
+    font-size: 20px;
+}
+dialog .modal_img .btn_unete{
+    width: 100%;
+    transform: translateY(-280px);
+    text-align: center;
+}
+dialog .modal_img .btn_unete a{
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+dialog .modal_img .btn_salir{
+    width: 100%;
+    text-align: end;
+    transform: translateY(-954px);
+}
+dialog .modal_img .btn_salir span{
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+dialog .modal_img .btn_salir span:hover{
+    background-color: #ffffff;
+}
+dialog .modal_img .btn_unete a:hover{
     background-color: #ffffff;
     color: #000000;
 }

@@ -24,4 +24,19 @@ window.addEventListener("scroll", function() {
     fixedDiv.style.backgroundColor = "transparent";
   }
 });
+/*MODAL*/
+window.onload = function() {
+  var dialog = document.getElementById("modal");
+  var closeBtn = document.getElementById("closebtn");
+
+  dialog.showModal();
+
+  closeBtn.onclick = function() {
+    dialog.classList.add("closing");
+    setTimeout(function() {
+      dialog.close();
+    }, 500);
+  };
+};
+
 
