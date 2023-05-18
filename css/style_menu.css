@@ -1,135 +1,137 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 /*estilo del menu*/
-.cabecera{
-    width: 100%;
-    height: 100px;
-    background-color: #000000;
+.cabecera {
+  width: 100%;
+  height: 100px;
+  background-color: #000000;
 }
 
-.cabecera .logo{
-    width: 20%;
-    float: left;
-    height: 100%;
+.cabecera .logo {
+  width: 20%;
+  float: left;
+  height: 100%;
 }
-.cabecera .logo img{
-    width: 40%;
-    height: 100%;
-    margin-left: 80px;
-    float: left;
+.cabecera .logo img {
+  width: 40%;
+  height: 100%;
+  margin-left: 80px;
+  float: left;
 }
-.cabecera .logo h2{
-    float: left;
-    color: white;
-    line-height: 100px;
+.cabecera .logo h2 {
+  float: left;
+  color: white;
+  line-height: 100px;
 }
-.cabecera .menu{
-    width: 60%;
-    float: left;
-    height: 100%;
+.cabecera .menu {
+  width: 60%;
+  float: left;
+  height: 100%;
 }
 
-.cabecera .menu ul{
-    width: 90%;
-    float: right;
-    text-align: center;
+.cabecera .menu ul {
+  width: 90%;
+  float: right;
+  text-align: center;
 }
-.cabecera .menu ul li{
-    width: 20%;
-    height: 100%;
-    float: left;
-    list-style: none;
-    font-size: 20px;
-    line-height: 100px;    
+.cabecera .menu ul li {
+  width: 20%;
+  height: 100%;
+  float: left;
+  list-style: none;
+  font-size: 20px;
+  line-height: 100px;
 }
-.cabecera .menu ul li a{
-    color: white;
-    text-decoration: none;
-    padding-top: 39.2px;
-    padding-bottom: 39.2px;
+.cabecera .menu ul li a {
+  color: white;
+  text-decoration: none;
+  padding-top: 39.2px;
+  padding-bottom: 39.2px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
-.cabecera .menu_logo{
-    width: 20%;
-    float: left;
-    height: 100%;
+.cabecera .menu_logo {
+  width: 20%;
+  float: left;
+  height: 100%;
 }
-.cabecera .menu_logo img{
-    width: 50px;
-    height: 50px;
-    margin-top: 25px;
-    padding-right: 40px;
+.cabecera .menu_logo img {
+  width: 50px;
+  height: 50px;
+  margin-top: 25px;
+  padding-right: 40px;
 }
-.cabecera .menu ul li:hover{
-    background-color: #ffffff;
-    cursor: pointer;
+.cabecera .menu ul li:hover {
+  background-color: #ffffff;
+  cursor: pointer;
 }
-.cabecera .menu ul li:hover a{
-    color: #000000;
+.cabecera .menu ul li:hover a {
+  color: #000000;
 }
 /*estilo usuario*/
-.btn_iniciar{
-    float: left;
-    overflow: hidden;
+.btn_iniciar {
+  float: left;
+  overflow: hidden;
 }
-.btn_iniciar .contenido_btniniciar{
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    min-width: 160px;
-    z-index: 3;
+.btn_iniciar .contenido_btniniciar {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  z-index: 3;
 }
-.btn_iniciar .contenido_btniniciar a{
-    float: none;
-    color: #000000;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+.btn_iniciar .contenido_btniniciar a {
+  float: none;
+  color: #000000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
-.btn_iniciar .contenido_btniniciar a:hover{
-    background-color: #000000;
-    color: #ffffff;
+.btn_iniciar .contenido_btniniciar a:hover {
+  background-color: #000000;
+  color: #ffffff;
 }
-.btn_iniciar:hover .contenido_btniniciar{
-    display: block;
+.btn_iniciar:hover .contenido_btniniciar {
+  display: block;
 }
 /*Estilo Pie*/
 .pie {
-    width: 95%;
-    padding: 2.5%;
-    background-color: rgb(0, 0, 0);
-    overflow: auto;
+  width: 95%;
+  padding: 2.5%;
+  background-color: rgb(0, 0, 0);
+  overflow: auto;
 }
-.pie .titulo{
-    padding-top: 10px;
-    width: 50%;
-    float: left;
+.pie .titulo {
+  padding-top: 10px;
+  width: 50%;
+  float: left;
 }
-.pie .titulo h3{
-    color: rgb(255, 255, 255);
+.pie .titulo h3 {
+  color: rgb(255, 255, 255);
 }
-.pie .submenu{
-    padding-top: 10px;
-    width: 50%;
-    float: right;
+.pie .submenu {
+  padding-top: 10px;
+  width: 50%;
+  float: right;
 }
-.pie .submenu ul{
-    list-style: none;
-    float: right;
+.pie .submenu ul {
+  list-style: none;
+  float: right;
 }
-.pie .submenu ul li{
-    float: left;
-    padding-right: 50px;
+.pie .submenu ul li {
+  float: left;
+  padding-right: 50px;
 }
-.pie .submenu ul li img{
-    width: 30px;
-    height: 30px;
+.pie .submenu ul li img {
+  width: 30px;
+  height: 30px;
 }
-.pie .derecho{
-    width: 100%;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    clear: both;
+.pie .derecho {
+  width: 100%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  clear: both;
 }

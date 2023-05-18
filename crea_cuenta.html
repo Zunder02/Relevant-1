@@ -1,72 +1,85 @@
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Crear cuenta - RELEVANT</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-	<meta charset="utf-8" />
-	<title>Crear cuenta - RELEVANT</title>
-	<link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-	<div class="cabecera">
-		<div class="logo">
-			<img src="imagenes/logo.png" alt="" />
-			<h2>Relevant</h2>
-		</div>
-		<div class="menu">
-			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="">Nosotros</a></li>
-				<li><a href="">Contacto</a></li>
-				<li><a href="">Ayuda</a></li>
-				<li><a href="ini_sesion.html">Inciar sesión</a></li>
-				<li><a href="crea_cuenta.html">Regístrate</a></li>
-			</ul>
-		</div>
-	</div>
-	<div class="crearcuenta">
-		<h3>Crear Cuenta</h3>
-	</div>
-	<div class="correo">
-		<form action="crear_cuenta" method="get">
-			<p>
-				<input name="correo" type="email" placeholder="*Correo Electronico" />
-			</p>
-			<p>
-				<input name="contraseña" type="text" placeholder="*Contraseña" />
-			</p>
-			<p>
-				<input name="nombre" type="text" placeholder="*Nombre" />
-			</p>
-			<p>
-				<input name="apellidos" type="text" placeholder="*Apellidos" />
-			</p>
-			<p>
-				<label>*Tipo de Documento</label>
-				<select name"opciones">
-					<option>DNI</option>
-					<option>Carnet de extranjeria</option>
-			</p>
-			<p>
-				<input name="number" placeholder="*Numero de Documento" />
-			</p>
-			<p>
-				<label>Fecha de nacimiento</label>
-				<input name="nacimiento" type="date" placeholder="*Fecha de nacimiento" />
-			</p>
-			<p>
-				<input type="radio" name="Sexo" /> Masculino <br />
-				<input type="radio" name="Sexo" /> Femenino <br />
-			</p>
-			<p>
-				<input type="checkbox" name="terminos" /> He leído y aceptado la Política de privacidad y los Terminos y
-				condiciones del uso del sitio web<br />
-			</p>
-			<p>
-				<input type="submit" value="ÚNETE" />
-				<a href="index.html"></a>
-			</p>
-		</form>
-	</div>
-</body>
-
+  <body>
+    <div class="cabecera" id="cabe">
+      <div class="c_cabecera">
+        <div class="logo">
+          <img src="imagenes/logo.png" alt="" />
+          <h2>Relevant</h2>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="catalogo.html">Tienda</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="menu_logo">
+          <a href="carrito.html"><img src="imagenes/bolsa.png" alt="" /></a>
+          <div class="btn_iniciar">
+            <img src="imagenes/logo_usuario.png" alt="" />
+            <div class="contenido_btniniciar">
+              <a href="ini_sesion.html">Iniciar Sesión</a>
+              <a href="crea_cuenta.html">Regístrate</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="crearcuenta">
+      <h3>Crear Cuenta</h3>
+    </div>
+    <div class="correo">
+      <form action="crear_cuenta" method="get">
+        <p>
+          <input name="correo" type="email" placeholder="*Correo Electronico" />
+        </p>
+        <p>
+          <input name="contraseña" type="text" placeholder="*Contraseña" />
+        </p>
+        <p>
+          <input name="nombre" type="text" placeholder="*Nombre" />
+        </p>
+        <p>
+          <input name="apellidos" type="text" placeholder="*Apellidos" />
+        </p>
+        <p>
+          <label>*Tipo de Documento</label>
+          <select name"opciones">
+          <option>DNI</option>
+          <option>Carnet de extranjeria</option>
+        </p>
+        <p>
+          <input name="number" placeholder="*Numero de Documento" />
+        </p>
+        <p>
+          <label>Fecha de nacimiento</label>
+          <input
+            name="nacimiento"
+            type="date"
+            placeholder="*Fecha de nacimiento"
+          />
+        </p>
+        <p>
+          <input type="radio" name="Sexo" /> Masculino <br />
+          <input type="radio" name="Sexo" /> Femenino <br />
+        </p>
+        <p>
+          <input type="checkbox" name="terminos" /> He leído y aceptado la
+          Política de privacidad y los Terminos y condiciones del uso del sitio
+          web<br />
+        </p>
+        <p>
+          <input type="submit" value="ÚNETE" />
+          <a href="index.html"></a>
+        </p>
+      </form>
+    </div>
+  </body>
 </html>

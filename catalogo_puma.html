@@ -1,179 +1,184 @@
 <html>
+  <head>
+    <title>Catálogo</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style_menu.css" />
+    <link rel="stylesheet" href="css/style_catalogo.css" />
+  </head>
 
-<head>
-  <title>Catálogo</title>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="css/style_menu.css" />
-  <link rel="stylesheet" href="css/style_catalogo.css" />
-</head>
+  <body>
+    <div class="cabecera" id="cabe">
+      <div class="c_cabecera">
+        <div class="logo">
+          <img src="imagenes/logo.png" alt="" />
+          <h2>Relevant</h2>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="catalogo.html">Tienda</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="menu_logo">
+          <a href="carrito.html"><img src="imagenes/bolsa.png" alt="" /></a>
+          <div class="btn_iniciar">
+            <img src="imagenes/logo_usuario.png" alt="" />
+            <div class="contenido_btniniciar">
+              <a href="ini_sesion.html">Iniciar Sesión</a>
+              <a href="crea_cuenta.html">Regístrate</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="barra_busqueda">
+      <input
+        type="text"
+        id="busqueda"
+        onkeyup="buscarProducto()"
+        placeholder="Buscar..."
+      />
+    </div>
+    <div class="lista_marca">
+      <div class="marcas">
+        <ul>
+          <li>
+            <a href=""><img src="imagenes/adidas.png" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="imagenes/nike.png" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="imagenes/puma.png" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-<body>
-  <div class="cabecera">
-    <div class="logo">
-      <img src="imagenes/logo.png" alt="" />
-      <h2>Relevant</h2>
-    </div>
-    <div class="menu">
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="catalogo.html">Tienda</a></li>
-        <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
-    </div>
-    <div class="menu_logo">
-      <a href=""><img src="imagenes/bolsa.png" alt="" /></a>
-      <div class="btn_iniciar">
-        <img src="imagenes/logo_usuario.png" alt="" />
-        <div class="contenido_btniniciar">
-          <a href="">Iniciar Sesión</a>
-          <a href="">Regístrate</a>
+    <div class="catalogo" id="product-list">
+      <div class="ropa">
+        <div class="obj">
+          <a href=""><img src="imagenes/img_adidas/zapa4.webp" alt="" /></a>
         </div>
+        <a href="">
+          <h3 class="nombre">Polo estampado 1</h3>
+          <div class="precio">
+            <h4>S/. 20.00 PEN</h4>
+          </div>
+        </a>
+      </div>
+      <div class="ropa">
+        <div class="obj">
+          <a href=""><img src="imagenes/img_adidas/zapa5.webp" alt="" /></a>
+        </div>
+        <a href="">
+          <h3 class="nombre">Jeans estampado 2</h3>
+          <div class="precio">
+            <h4>S/. 20.00 PEN</h4>
+          </div>
+        </a>
+      </div>
+      <div class="ropa">
+        <div class="obj">
+          <a href=""><img src="imagenes/img_adidas/m_1.webp" alt="" /></a>
+        </div>
+        <a href="">
+          <h3 class="nombre">Polo estampado 3</h3>
+          <div class="precio">
+            <h4>S/. 20.00 PEN</h4>
+          </div>
+        </a>
+      </div>
+      <div class="ropa">
+        <div class="obj">
+          <a href=""><img src="imagenes/img_adidas/m_buzo1.webp" alt="" /></a>
+        </div>
+        <a href="">
+          <h3 class="nombre">Polo estampado 4</h3>
+          <div class="precio">
+            <h4>S/. 20.00 PEN</h4>
+          </div>
+        </a>
+      </div>
+      <div class="ropa">
+        <div class="obj">
+          <a href=""><img src="imagenes/img_adidas/m_buzo2.webp" alt="" /></a>
+        </div>
+        <a href="">
+          <h3 class="nombre">Polo estampado 5</h3>
+          <div class="precio">
+            <h4>S/. 20.00 PEN</h4>
+          </div>
+        </a>
+      </div>
+      <div class="ropa">
+        <div class="obj">
+          <a href=""><img src="imagenes/img_adidas/m_casaca.webp" alt="" /></a>
+        </div>
+        <a href="">
+          <h3 class="nombre">Polo estampado 6</h3>
+          <div class="precio">
+            <h4>S/. 20.00 PEN</h4>
+          </div>
+        </a>
+      </div>
+      <div class="ropa">
+        <div class="obj">
+          <a href=""><img src="imagenes/img_adidas/m_polo1.webp" alt="" /></a>
+        </div>
+        <a href="">
+          <h3 class="nombre">Polo estampado 7</h3>
+          <div class="precio">
+            <h4>S/. 20.00 PEN</h4>
+          </div>
+        </a>
+      </div>
+      <div class="ropa">
+        <div class="obj">
+          <a href=""><img src="imagenes/img_adidas/m_polo2.webp" alt="" /></a>
+        </div>
+        <a href="">
+          <h3 class="nombre">Polo estampado 8</h3>
+          <div class="precio">
+            <h4>S/. 20.00 PEN</h4>
+          </div>
+        </a>
+      </div>
+      <div class="ropa">
+        <div class="obj">
+          <a href=""><img src="imagenes/img_adidas/m_polo3.webp" alt="" /></a>
+        </div>
+        <a href="">
+          <h3 class="nombre">Polo estampado 9</h3>
+          <div class="precio">
+            <h4>S/. 20.00 PEN</h4>
+          </div>
+        </a>
+      </div>
+      <div class="ropa">
+        <div class="obj">
+          <a href=""><img src="imagenes/img_adidas/m_zapa1.webp" alt="" /></a>
+        </div>
+        <a href="">
+          <h3 class="nombre">Polo estampado 10</h3>
+          <div class="precio">
+            <h4>S/. 20.00 PEN</h4>
+          </div>
+        </a>
       </div>
     </div>
-  </div>
-  <div class="barra_busqueda">
-    <input type="text" id="busqueda" onkeyup="buscarProducto()" placeholder="Buscar...">
-  </div>
-  <div class="lista_marca">
-    <div class="marcas">
-      <ul>
-        <li>
-          <a href=""><img src="imagenes/adidas.png" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="imagenes/nike.png" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="imagenes/puma.png" alt="" /></a>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="catalogo" id="product-list">
-    <div class="ropa">
-      <div class="obj">
-        <a href=""><img src="imagenes/img_adidas/zapa4.webp" alt="" /></a>
+    <div class="listas_siguientes">
+      <div class="contenido">
+        <ul>
+          <li><a href="">1</a></li>
+          <li><a href="">2</a></li>
+          <li><a href="">3</a></li>
+          <li><a href="">4</a></li>
+        </ul>
       </div>
-      <a href="">
-        <h3 class="nombre">Polo estampado 1</h3>
-        <div class="precio">
-          <h4>S/. 20.00 PEN</h4>
-        </div>
-      </a>
     </div>
-    <div class="ropa">
-      <div class="obj">
-        <a href=""><img src="imagenes/img_adidas/zapa5.webp" alt="" /></a>
-      </div>
-      <a href="">
-        <h3 class="nombre">Jeans estampado 2</h3>
-        <div class="precio">
-          <h4>S/. 20.00 PEN</h4>
-        </div>
-      </a>
-    </div>
-    <div class="ropa">
-      <div class="obj">
-        <a href=""><img src="imagenes/img_adidas/m_1.webp" alt="" /></a>
-      </div>
-      <a href="">
-        <h3 class="nombre">Polo estampado 3</h3>
-        <div class="precio">
-          <h4>S/. 20.00 PEN</h4>
-        </div>
-      </a>
-    </div>
-    <div class="ropa">
-      <div class="obj">
-        <a href=""><img src="imagenes/img_adidas/m_buzo1.webp" alt="" /></a>
-      </div>
-      <a href="">
-        <h3 class="nombre">Polo estampado 4</h3>
-        <div class="precio">
-          <h4>S/. 20.00 PEN</h4>
-        </div>
-      </a>
-    </div>
-    <div class="ropa">
-      <div class="obj">
-        <a href=""><img src="imagenes/img_adidas/m_buzo2.webp" alt="" /></a>
-      </div>
-      <a href="">
-        <h3 class="nombre">Polo estampado 5</h3>
-        <div class="precio">
-          <h4>S/. 20.00 PEN</h4>
-        </div>
-      </a>
-    </div>
-    <div class="ropa">
-      <div class="obj">
-        <a href=""><img src="imagenes/img_adidas/m_casaca.webp" alt="" /></a>
-      </div>
-      <a href="">
-        <h3 class="nombre">Polo estampado 6</h3>
-        <div class="precio">
-          <h4>S/. 20.00 PEN</h4>
-        </div>
-      </a>
-    </div>
-    <div class="ropa">
-      <div class="obj">
-        <a href=""><img src="imagenes/img_adidas/m_polo1.webp" alt="" /></a>
-      </div>
-      <a href="">
-        <h3 class="nombre">Polo estampado 7</h3>
-        <div class="precio">
-          <h4>S/. 20.00 PEN</h4>
-        </div>
-      </a>
-    </div>
-    <div class="ropa">
-      <div class="obj">
-        <a href=""><img src="imagenes/img_adidas/m_polo2.webp" alt="" /></a>
-      </div>
-      <a href="">
-        <h3 class="nombre">Polo estampado 8</h3>
-        <div class="precio">
-          <h4>S/. 20.00 PEN</h4>
-        </div>
-      </a>
-    </div>
-    <div class="ropa">
-      <div class="obj">
-        <a href=""><img src="imagenes/img_adidas/m_polo3.webp" alt="" /></a>
-      </div>
-      <a href="">
-        <h3 class="nombre">Polo estampado 9</h3>
-        <div class="precio">
-          <h4>S/. 20.00 PEN</h4>
-        </div>
-      </a>
-    </div>
-    <div class="ropa">
-      <div class="obj">
-        <a href=""><img src="imagenes/img_adidas/m_zapa1.webp" alt="" /></a>
-      </div>
-      <a href="">
-        <h3 class="nombre">Polo estampado 10</h3>
-        <div class="precio">
-          <h4>S/. 20.00 PEN</h4>
-        </div>
-      </a>
-    </div>
-  </div>
-  <div class="listas_siguientes">
-    <div class="contenido">
-      <ul>
-        <li><a href="">1</a></li>
-        <li><a href="">2</a></li>
-        <li><a href="">3</a></li>
-        <li><a href="">4</a></li>
-      </ul>
-    </div>
-  </div>
-  <script src="js/catalogo.js"></script>
-</body>
-
+    <script src="js/catalogo.js"></script>
+  </body>
 </html>

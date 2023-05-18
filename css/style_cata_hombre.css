@@ -1,0 +1,43 @@
+/*Titulo*/
+.titulo {
+  width: 96%;
+  padding: 1.5%;
+  text-align: center;
+}
+
+/*Estilo de Productos*/
+.catalogo {
+  width: 95%;
+  padding: 2.5%;
+  overflow: auto;
+}
+.catalogo .ropa {
+  width: 17%;
+  padding: 0.5%;
+  margin: 1%;
+  float: left;
+  text-align: center;
+  background-color: #eceff0;
+  border-radius: 20px;
+}
+.catalogo .ropa:hover {
+  transform: scale(1.1);
+}
+.catalogo .ropa .obj img {
+  width: 100%;
+}
+.catalogo .ropa a {
+  text-decoration: none;
+}
+/*barra de busqueda*/
+.barra_busqueda {
+  width: 95%;
+  padding: 2.5%;
+  text-align: center;
+}
+.barra_busqueda input {
+  width: 97%;
+  padding: 1.5%;
+  border-radius: 20px;
+  font-size: 20px;
+}
