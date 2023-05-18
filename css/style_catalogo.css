@@ -51,6 +51,9 @@
   border: solid rgb(0, 0, 0) 5px;
   border-radius: 50px;
 }
+.lista_marca .marcas .select {
+  opacity: 0.5;
+}
 
 /*Estilo de Productos*/
 .catalogo .ropa {
