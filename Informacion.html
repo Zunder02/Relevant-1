@@ -1,120 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informacion del producto</title>
-</head>
-<body>
-    <div class="Formulario">
-<table>
-    <tr >
-        <td><img src="Imagenes/1_nZgHhWUTYKXNVym_TKikgA.png" ><center><blockquote><h2>Carrito > Informacion > Envios > Pago</h2></blockquote></center> 
-        <br>
-        <p><center><blockquote><h3>Si tienes una cuenta haz click para iniciar sesion</h3></p></blockquote></center>
-       <form action="" method="post" >
-           <input type= "email" name="Correo" size="80" placeholder="Ingrese correo electronico">
-           <br>
-           <input type="checkbox" name="recibir" value="si">Enviarme novedades y ofertas por correo electrónico
-           <p>Dirección de domicilio / Nombre de la tienda</p>
-           <br>
-           Pais:
-           <select name="pais"  placeholder="Pais/Region">
-            <option value="ps">...</option>
-            <option value="Perú">Perú</option>
-            <option value="Argentina">Argentina</option>
-            <option value="Uruguay">Uruguay</option>
-            <option value="Paraguay">Paraguay</option>
-            <option value="Chile">Chile</option>
-            <option value="Brasil">Brasil</option>
-            <option value="Ecuador">Ecuador</option>
-            <option value="Colombia">Colombia</option>
-            <option value="Venezuela">Venezuela</option>
-           </select> 
-            <br>
-            <br>
-            <input type="text" name="Nombre" size="40" placeholder="Ingrese sus nombres"> <input type="text" name="Ingrese sus apellidos" size="40" placeholder="Ingrese sus apellidos">
-            <br>
-            <br>
-            <input type="number" name="Identidad" size="80" placeholder="Ingrese DNI,CE,RUC">
-            <br>
-            <br>
-            <input type="text" name="Direccion" size="80" placeholder="Ingrese su direccion">
-            <br>
-            <br>
-            <input type="text" name="Referencia" size="80" placeholder="Referencia, puntos cercanos, etc">
-            <br>
-            <br>
-            <input type="text" name="Postal" size="40" placeholder="Ingrese su codigo postal o de distrito"> <input type="text" name="Ciudad" size="40" placeholder="Ingrese su ciudad">
-            <br>
-            <br>
-            Ingrese su region/departamento: <select name="departamento"  placeholder=Region/Departamento">
-                <option value="ps">...</option>
-                <option value="Ancash">Ancash</option>
-                <option value="Amazonas">Amazonas</option>
-                <option value="Apurimac">Apurimac</option>
-                <option value="Cajamarca">Cajamarca</option>
-                <option value="Callao">Callao</option>
-                <option value="Huancavelica">Huancavelica</option>
-                <option value="Huanuco">Huanuco</option>
-                <option value="Ica">Ica</option>
-                <option value="Junin">Junin</option>
-                <option value="La libertad">La libertad</option>
-                <option value="Lambayeque">Lambayeque</option>
-                <option value="Lima">Lima</option>
-                <option value="Loreto">Loreto</option>
-                <option value="Madre de Dios">Madre de Dios</option>
-                <option value="Moquegua">Moquegua</option>
-                <option value="Pasco">Pasco</option>
-                <option value="Piura">Piura</option>
-                <option value="Puno">Puno</option>
-                <option value="San Martin">San Martin</option>
-                <option value="Tacna">Tacna</option>
-                <option value="Tumbes">Tumbes</option>
-                <option value="Ucayali">Ucayali</option>
-            </select>
-            <br>
-            <br>
-            <input type="number" name="Telefono" size="80" placeholder="Ingrese su telefono">
-            <br>
-            <br>
-            <input type="checkbox" name="recibir" value="si">Guardar mi información y consultar rápidamente la proxima vez
-            <br>
-            <br>
-          <a href="carrito.html">Volver al carrito</a>  
-                  <a href="Envios.html">Ir a envios</a>      
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Informacion</title>
+    <link rel="stylesheet" href="css/style_informacion.css" />
+  </head>
+  <body>
+    <div class="Vista">
+      <div class="Izquierda">
+        <div class="Logo">
+          <a href="index.html"><img src="imagenes/logo.png" alt="" /></a>
+        </div>
+        <nav class="migas_pan">
+          <ol>
+            <li class="migas"><a href="">Carrito</a></li>
+            <li class="signo">&#62;</li>
+            <li class="migas"><a href="">Información</a></li>
+            <li class="signo">&#62;</li>
+            <li class="migas"><a href="">Envíos</a></li>
+            <li class="signo">&#62;</li>
+            <li class="migas_select">Pago</li>
+          </ol>
+        </nav>
+        <div class="Formulario">
+          <div class="Contenido01">
+            <div class="Info"><h3>Informacion del contacto</h3></div>
+            <div class="Pregunta">
+              <h6>¿Ya tienes tu Cuenta? Iniciar Sesión</h6>
+            </div>
+            <div class="Correo">
+              <input type="emai" placeholder="Correo electronico" />
+            </div>
+            <div class="Enviar">
+              <input type="checkbox" />Enviarme novedades y ofertas por correo
+              electrónico
+            </div>
+          </div>
+          <div class="Form">
+            <div class="Direccion">
+              <h3>Dirección de domicilio / Nombre de la tienda</h3>
+            </div>
+            <div class="Pais">
+              <select name="Pais">
+                <option>Pais/Region</option>
+                <option>Peru</option>
+                <option>Chile</option>
+                <option>Argentina</option>
+                <option>Venezuela</option>
+                <option>Uruguay</option>
+                <option>Paraguay</option>
+                <option>Colombia</option>
+                <option>Ecuador</option>
+              </select>
+            </div>
+            <div class="N_A">
+              <div class="Nombres">
+                <input type="text" placeholder="Nombre" />
+              </div>
+              <div class="Apellidos">
+                <input type="text" placeholder="Apellidos" />
+              </div>
+            </div>
+            <div class="Identidad">
+              <input type="number" placeholder="DNI,CE,RUC" />
+            </div>
+            <div class="Direccion">
+              <input type="number" placeholder="Direccion" />
+            </div>
+            <div class="Referencia">
+              <input type="text" placeholder="Referencia" />
+            </div>
+            <div class="C_C">
+              <div class="Codigo">
+                <input type="number" placeholder="Codigo postal" />
+              </div>
+              <div class="Ciudad">
+                <input type="text" placeholder="Ciudad" />
+              </div>
+            </div>
+            <div class="Pais">
+              <select name="Pais">
+                <option>Region/Departamento</option>
+                <option>Amazonas</option>
+                <option>Ancash</option>
+                <option>Apurimac</option>
+                <option>Arequipa</option>
+                <option>Ayacucho</option>
+                <option>Cajamarca</option>
+                <option>Callao</option>
+                <option>Lima</option>
+                <option>Madre de Dios</option>
+              </select>
+            </div>
+            <div class="Telefono">
+              <input type="number" placeholder="Teléfono" />
+            </div>
+            <div class="Enviar">
+              <input type="checkbox" />Guardar mi información y consultar
+              rápidamente la proxima vez
+            </div>
+          </div>
 
-       </form></td>
-
-          
-<td><table >
-    <td><img src="Imagenes/short.jpg"></td>
-    <td>Short deportivo en compresion para hombres Talla: S/Negro</td>
-    <td>S/. 39.90</td>
-    <tr>
-        <td><img src="Imagenes/short.jpg"></td>
-        <td>Short deportivo en compresion para hombres Talla: M/Negro</td>
-        <td>S/. 50</td>
-    </tr>
-</table>
-<br>
-<hr>
-<br>
-<input type="text" name="Nombre" size="40" placeholder="Tarjeta de regalo o de descuento"> <input type="button" name="Descuento" value="Usar">
-<br>
-<hr>
-<br>
-Subtotal: S/. 119.70 PEN
-<br>
-Envio: Calculado en el siguiente paso
-<br>
-<hr>
-<br>
-Total: S/. 119.70
-</td>
-
-    </tr>
-</table>
-</body>
+          <div class="botones">
+            <div class="carrito">
+              <a href="carrito.html">Volver al carrito</a>
+            </div>
+            <div class="envios">
+              <a href="Envios.html">Continuar con envios</a>
+            </div>
+          </div>
+          <div class="pie">
+            <hr />
+            <div class="submenu">
+              <ul>
+                <li><a href="reembolso.html">Política de reembolso</a></li>
+                <li><a href="privacidad.html">Política de privacidad</a></li>
+                <li><a href="terminos.html">Términos y condiciones</a></li>
+              </ul>
+            </div>
+            <p>&copy; Relevant 2023 - Todos los derechos reservados</p>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="tproductos">
+          <div class="contimg">
+            <img src="imagenes/short.jpg" alt="" />
+          </div>
+          <div class="context">
+            <p>Short deportivo de compresion para hombre</p>
+            <p>S/Negro</p>
+          </div>
+          <div class="contprecio">
+            <p>S/ 89.90</p>
+          </div>
+        </div>
+        <div class="montos">
+          <hr />
+          <div class="cont_monto">
+            <div class="text"><p>Subtotal</p></div>
+            <div class="precio"><p>S/ 89.90</p></div>
+          </div>
+          <div class="cont_monto">
+            <div class="text"><p>Envíos</p></div>
+            <div class="precio"><p>En proceso</p></div>
+          </div>
+          <hr />
+          <div class="cont_monto">
+            <div class="text"><p>Total</p></div>
+            <div class="precio"><p>S/ 89.90</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

@@ -2,7 +2,8 @@
   <head>
     <meta charset="utf-8" />
     <title>Crear cuenta - RELEVANT</title>
-    <link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/style_menu.css" />
+    <link rel="stylesheet" href="css/style_crea_cuenta.css" />
   </head>
 
   <body>
@@ -36,50 +37,60 @@
       <h3>Crear Cuenta</h3>
     </div>
     <div class="correo">
-      <form action="crear_cuenta" method="get">
-        <p>
-          <input name="correo" type="email" placeholder="*Correo Electronico" />
-        </p>
-        <p>
-          <input name="contraseña" type="text" placeholder="*Contraseña" />
-        </p>
-        <p>
-          <input name="nombre" type="text" placeholder="*Nombre" />
-        </p>
-        <p>
-          <input name="apellidos" type="text" placeholder="*Apellidos" />
-        </p>
-        <p>
-          <label>*Tipo de Documento</label>
-          <select name"opciones">
-          <option>DNI</option>
-          <option>Carnet de extranjeria</option>
-        </p>
-        <p>
-          <input name="number" placeholder="*Numero de Documento" />
-        </p>
-        <p>
-          <label>Fecha de nacimiento</label>
-          <input
-            name="nacimiento"
-            type="date"
-            placeholder="*Fecha de nacimiento"
-          />
-        </p>
-        <p>
-          <input type="radio" name="Sexo" /> Masculino <br />
-          <input type="radio" name="Sexo" /> Femenino <br />
-        </p>
-        <p>
-          <input type="checkbox" name="terminos" /> He leído y aceptado la
-          Política de privacidad y los Terminos y condiciones del uso del sitio
-          web<br />
-        </p>
-        <p>
-          <input type="submit" value="ÚNETE" />
-          <a href="index.html"></a>
-        </p>
-      </form>
+		<div class="conf_correo">
+				<div class="correo_electronico">
+						<input name="correo" type="email" placeholder="*Correo Electronico" /><br/>
+						<input name="contraseña" type="text" placeholder="*Contraseña"/><br/>	
+						<input name="nombre" type="text" placeholder="*Nombre" /><br/>
+						<input name="apellidos" type="text" placeholder="*Apellidos" /><br/>
+						<select name="opciones">
+						<option>DNI</option>
+						<option>Carnet de extranjeria</option>
+						><br />
+						<input name="number" placeholder="*Numero de Documento" />
+						
+						<h2>Fecha de nacimiento</h2>
+						<input
+						name="nacimiento"
+						type="date"
+						placeholder="*Fecha de nacimiento"
+						/><br/>
+				</div>
+				<div class="boton">
+					<input type="radio" name="Sexo" id="Masculino"/><label for="Masculino"> Masculino</label>
+					<input type="radio" name="Sexo" id="Femenino"/><label for="Masculino"> Femenino</label>
+					<input type="checkbox" name="terminos" /> He leído y aceptado la
+					Política de privacidad y los Terminos y condiciones del uso del sitio
+					web<br />
+					</p>
+					<p>
+					<input type="submit" value="ÚNETE" />
+					<a href="index.html"></a>
+					</p>
+				</div>
+			
+		</div>
+    </div>
+	<div class="pie">
+      <div class="titulo">
+        <h3>Siguenos en:</h3>
+      </div>
+      <div class="submenu">
+        <ul>
+          <li>
+            <a href=""><img src="imagenes/fb.png" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="imagenes/insta.png" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="imagenes/twitter.png" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="derecho">
+        <p>&copy; RELEVANT - Todos los derechos reservados</p>
+      </div>
     </div>
   </body>
 </html>

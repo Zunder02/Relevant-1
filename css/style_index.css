@@ -1,387 +1,383 @@
-
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 /*estilo del menu*/
-.cabecera{
-    width: 100%;
-    height: 100px;
-    position: fixed;
-    z-index: 3;
+.cabecera {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 3;
 }
 
-.cabecera .logo{
-    width: 20%;
-    float: left;
-    height: 100%;
+.cabecera .logo {
+  width: 20%;
+  height: 100%;
+  float: left;
+  text-align: end;
 }
-.cabecera .logo img{
-    width: 40%;
-    height: 100%;
-    margin-left: 80px;
-    float: left;
+.cabecera .logo img {
+  width: 50%;
+  height: 100%;
 }
-.cabecera .logo h2{
-    float: left;
-    color: white;
-    line-height: 100px;
+.cabecera .logo h2 {
+  color: rgb(255, 255, 255);
+  line-height: 100px;
+  float: right;
 }
-.cabecera .menu{
-    width: 60%;
-    float: left;
-    height: 100%;
+.cabecera .menu {
+  width: 60%;
+  float: left;
+  height: 100%;
 }
 
-.cabecera .menu ul{
-    width: 90%;
-    float: right;
-    text-align: center;
+.cabecera .menu ul {
+  width: 90%;
+  float: right;
+  text-align: center;
 }
-.cabecera .menu ul li{
-    width: 20%;
-    height: 100%;
-    float: left;
-    list-style: none;
-    font-size: 20px;
-    line-height: 100px;
-    
+.cabecera .menu ul li {
+  width: 20%;
+  height: 100%;
+  float: left;
+  list-style: none;
+  font-size: 20px;
+  line-height: 100px;
 }
-.cabecera .menu ul li a{
-    color: white;
-    text-decoration: none;
-    padding-top: 39.2px;
-    padding-bottom: 39.2px;
+.cabecera .menu ul li a {
+  color: white;
+  text-decoration: none;
+  padding-top: 39.2px;
+  padding-bottom: 39.2px;
 }
-.cabecera .menu_logo{
-    width: 20%;
-    float: left;
-    height: 100%;
+.cabecera .menu_logo {
+  width: 20%;
+  float: left;
+  height: 100%;
 }
-.cabecera .menu_logo img{
-    width: 50px;
-    height: 50px;
-    margin-top: 25px;
-    padding-right: 40px;
+.cabecera .menu_logo img {
+  width: 50px;
+  height: 50px;
+  margin-top: 25px;
+  padding-right: 40px;
 }
-.cabecera .c_cabecera{
-    width: 100%;
-    position: fixed;
-    height: 100px;
+.cabecera .c_cabecera {
+  width: 100%;
+  position: fixed;
+  height: 100px;
 }
-.cabecera .c_cabecera:hover{
-    transition: 0.5s;
-    background-color: #000000;
+.cabecera .c_cabecera:hover {
+  transition: 0.5s;
+  background-color: #000000;
 }
-.cabecera .menu ul li:hover{
-    background-color: #ffffff;
-    cursor: pointer;
+.cabecera .menu ul li:hover {
+  background-color: #ffffff;
+  cursor: pointer;
 }
-.cabecera .menu ul li:hover a{
-    color: #000000;
+.cabecera .menu ul li:hover a {
+  color: #000000;
 }
 /*estilo usuario*/
-.btn_iniciar{
-    float: left;
-    overflow: hidden;
+.btn_iniciar {
+  float: left;
+  overflow: hidden;
 }
-.btn_iniciar .contenido_btniniciar{
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    min-width: 160px;
-    z-index: 3;
+.btn_iniciar .contenido_btniniciar {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  z-index: 3;
 }
-.btn_iniciar .contenido_btniniciar a{
-    float: none;
-    color: #000000;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+.btn_iniciar .contenido_btniniciar a {
+  float: none;
+  color: #000000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
-.btn_iniciar .contenido_btniniciar a:hover{
-    background-color: #000000;
-    color: #ffffff;
+.btn_iniciar .contenido_btniniciar a:hover {
+  background-color: #000000;
+  color: #ffffff;
 }
-.btn_iniciar:hover .contenido_btniniciar{
-    display: block;
+.btn_iniciar:hover .contenido_btniniciar {
+  display: block;
 }
 /*Estilo Pie*/
 .pie {
-    width: 95%;
-    padding: 2.5%;
-    background-color: rgb(0, 0, 0);
-    overflow: auto;
+  width: 95%;
+  padding: 2.5%;
+  background-color: rgb(0, 0, 0);
+  overflow: auto;
 }
-.pie .titulo{
-    padding-top: 10px;
-    width: 50%;
-    float: left;
+.pie .titulo {
+  padding-top: 10px;
+  width: 50%;
+  float: left;
 }
-.pie .titulo h3{
-    color: rgb(255, 255, 255);
+.pie .titulo h3 {
+  color: rgb(255, 255, 255);
 }
-.pie .submenu{
-    padding-top: 10px;
-    width: 50%;
-    float: right;
+.pie .submenu {
+  padding-top: 10px;
+  width: 50%;
+  float: right;
 }
-.pie .submenu ul{
-    list-style: none;
-    float: right;
+.pie .submenu ul {
+  list-style: none;
+  float: right;
 }
-.pie .submenu ul li{
-    float: left;
-    padding-right: 50px;
+.pie .submenu ul li {
+  float: left;
+  padding-right: 50px;
 }
-.pie .submenu ul li img{
-    width: 30px;
-    height: 30px;
+.pie .submenu ul li img {
+  width: 30px;
+  height: 30px;
 }
-.pie .derecho{
-    width: 100%;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    clear: both;
+.pie .derecho {
+  width: 100%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  clear: both;
 }
 
 /*estilo del banner*/
 .banner {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
 }
 
 .banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
-.banner .activo{
-    opacity: 1;
+.banner .activo {
+  opacity: 1;
 }
-.txt_banner{
-    width: 50%;
-    padding: 25%;
-    padding-top: 0;
-    padding-bottom: 0;
-    transform: translateY(-400px);
-    text-align: center;
+.txt_banner {
+  width: 50%;
+  padding: 25%;
+  padding-top: 0;
+  padding-bottom: 0;
+  transform: translateY(-400px);
+  text-align: center;
 }
-.txt_banner h1{
-    color: #ffffff;
+.txt_banner h1 {
+  color: #ffffff;
 }
-.btn_banner{
-    width: 100%;
-    text-align: center;
-    transform: translateY(-350px);
+.btn_banner {
+  width: 100%;
+  text-align: center;
+  transform: translateY(-350px);
 }
-.btn_banner a{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 70px;
-    padding-right: 70px;
-    background-color: #000000;
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 10px;
+.btn_banner a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 10px;
 }
-.btn_banner a:hover{
-    background-color: #ffffff;
-    color: #000000;
+.btn_banner a:hover {
+  background-color: #ffffff;
+  color: #000000;
 }
 /*MODAL*/
 @keyframes slideIn {
-    0% {
-      transform: translateY(-100%);
-    }
-    100% {
-      transform: translateY(0);
-    }
+  0% {
+    transform: translateY(-100%);
   }
-  
-  @keyframes slideOut {
-    0% {
-      transform: translateY();
-    }
-    100% {
-      transform: translateY(-100%);
-    }
+  100% {
+    transform: translateY(0);
   }
-dialog{
-    width: 600px;
-    height: 750px;
-    background-color: #ffffff;
-    border: 10px solid #000000;
-    top: 1%;
-    left: 30%;
-    animation: slideIn 0.5s ease;
+}
+
+@keyframes slideOut {
+  0% {
+    transform: translateY();
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+dialog {
+  width: 600px;
+  height: 580px;
+  background-color: #ffffff;
+  border: 10px solid #000000;
+  top: 1%;
+  left: 30%;
+  animation: slideIn 0.5s ease;
+  position: fixed;
 }
 dialog.closing {
-    animation: slideOut 0.5s ease; /* Animación de desaparición */
-  }
-dialog[open]{
-    display: block;
+  animation: slideOut 0.5s ease; /* Animación de desaparición */
 }
-dialog::backdrop{
-    background-color: rgba(0, 0, 0, .55);
+dialog[open] {
+  display: block;
 }
-dialog .modal_img{
-    width: 100%;
-    height: 750px;
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.55);
 }
-dialog .modal_img img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+dialog .modal_img {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
-.modal_img .txt{
-    width: 80%;
-    padding: 5%;
-    margin: 5%;
-    transform: translateY(-300px);
-    background-color: rgba(0, 0, 0, .55);
-    text-align: center;
+dialog .modal_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.modal_img .txt p{
-    color: #ffffff;
-    font-size: 20px;
+.modal_img .txt {
+  width: 80%;
+  padding: 5%;
+  margin: 5%;
+  transform: translateY(-300px);
+  background-color: rgba(0, 0, 0, 0.55);
+  text-align: center;
 }
-dialog .modal_img .btn_unete{
-    width: 100%;
-    transform: translateY(-280px);
-    text-align: center;
+.modal_img .txt p {
+  color: #ffffff;
+  font-size: 20px;
 }
-dialog .modal_img .btn_unete a{
-    background-color: #000000;
-    color: #ffffff;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 70px;
-    padding-right: 70px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-size: 20px;
+dialog .modal_img .btn_unete {
+  width: 100%;
+  transform: translateY(-280px);
+  text-align: center;
 }
-dialog .modal_img .btn_salir{
-    width: 100%;
-    text-align: end;
-    transform: translateY(-954px);
+dialog .modal_img .btn_unete a {
+  background-color: #000000;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 20px;
 }
-dialog .modal_img .btn_salir span{
-    padding-top: 7px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 7px;
-    cursor: pointer;
+dialog .modal_img .btn_salir {
+  width: 100%;
+  padding-top: 1%;
+  text-align: end;
+  position: absolute;
 }
-dialog .modal_img .btn_salir span:hover{
-    background-color: #ffffff;
+dialog .modal_img .btn_salir span {
+  padding-top: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 7px;
+  cursor: pointer;
 }
-dialog .modal_img .btn_unete a:hover{
-    background-color: #ffffff;
-    color: #000000;
+dialog .modal_img .btn_salir span:hover {
+  background-color: #ffffff;
+}
+dialog .modal_img .btn_unete a:hover {
+  background-color: #ffffff;
+  color: #000000;
 }
 
 /*estilo de productos*/
-.contenedor{
-    width: 100%;
-    
+.contenedor {
+  width: 100%;
 }
 .contenedor .contenido {
-    width: 90%;
-    padding: 5%;
-    overflow: auto;
+  width: 90%;
+  padding: 5%;
+  overflow: auto;
 }
-.contenedor .contenido .cont{
-    width: 30.3%;
-    padding: 1.5%;
-    padding-top: 0;
-    float: left;
+.contenedor .contenido .cont {
+  width: 30.3%;
+  padding: 1.5%;
+  padding-top: 0;
+  float: left;
 }
-.contenedor .contenido .cont .obj{
-    width: 100%;
-    position: relative;
+.contenedor .contenido .cont .obj {
+  width: 100%;
+  position: relative;
 }
-.contenedor .contenido .cont .obj a img{
-    width: 100%;
-    background-color: #ECEEF0;
+.contenedor .contenido .cont .obj a img {
+  width: 100%;
+  background-color: #eceef0;
 }
-.contenedor .contenido .cont .obj .top{
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: opacity 0.5s ease-in-out ;
+.contenedor .contenido .cont .obj .top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.5s ease-in-out;
 }
-
 
 /*HOVER DE IMAGENES*/
-.contenedor .contenido .cont .obj .top:hover{
-    opacity: 0;
+.contenedor .contenido .cont .obj .top:hover {
+  opacity: 0;
 }
-
 
 /*ESTILO DE COTENEDOR GENERO*/
-.contenedor_genero{
-    width: 100%;
+.contenedor_genero {
+  width: 100%;
 }
-.contenedor_genero .titulo{
-    text-align: center;
+.contenedor_genero .titulo {
+  text-align: center;
 }
-.contenedor_genero .titulo h3{
-    font-size: 30px;
+.contenedor_genero .titulo h3 {
+  font-size: 30px;
 }
-.contenedor_genero .contenido{
-    width: 90%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    overflow: auto;
+.contenedor_genero .contenido {
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  overflow: auto;
 }
-.contenedor_genero .contenido .cont{
-    width: 46%;
-    padding: 2%;
-    float: left;
+.contenedor_genero .contenido .cont {
+  width: 46%;
+  padding: 2%;
+  float: left;
 }
-.contenedor_genero .contenido .cont .obj{
-    background-color: #ECEEF0;
-    width: 100%;
+.contenedor_genero .contenido .cont .obj {
+  background-color: #eceef0;
+  width: 100%;
 }
-.contenedor_genero .contenido .cont .obj img{
-    width: 100%;
+.contenedor_genero .contenido .cont .obj img {
+  width: 100%;
 }
-.contenedor_genero .contenido .cont .titulo{
-    width: 100%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+.contenedor_genero .contenido .cont .titulo {
+  width: 100%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
-.contenedor_genero .contenido .cont .btn{
-    text-align: center;
-    width: 100%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+.contenedor_genero .contenido .cont .btn {
+  text-align: center;
+  width: 100%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
-.contenedor_genero .contenido .cont .btn a{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: #000000;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 10px;
+.contenedor_genero .contenido .cont .btn a {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
 }
-.contenedor_genero .contenido .cont .btn a:hover{
-    background-color: #e0e0e0;
-    color: #000000;
+.contenedor_genero .contenido .cont .btn a:hover {
+  background-color: #e0e0e0;
+  color: #000000;
 }
-

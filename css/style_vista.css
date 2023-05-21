@@ -1,0 +1,179 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.contenedor{
+  width: 100%;
+  
+  
+}
+.contenedor .contenedor1{
+  width: 95%;
+  background-color: white;
+  padding: 2.5%;
+  overflow: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contenedor .Izquierda{
+  width: 20%;
+  
+}
+.Izquierda .imagen01 img{
+  width: 70%;
+  margin-top: 25%;
+}
+.Izquierda .imagen02 img{
+  width: 70%;
+  margin-top: 25%;
+  border-radius: 20px;
+}
+.Izquierda .imagen03 img{
+  width: 70%;
+  margin-top: 25%;
+  border-radius: 20px;
+}
+.contenedor1 .central {
+  width: 40%;
+  padding: 5%;
+}
+.contenedor1 .central img{
+  width: 100%;
+}
+.contenedor1 .central .circulos{
+  width: 25%;
+  transform: translateX(160%);
+  justify-content: center;
+  
+}
+.contenedor1 .central .circulos img{
+  width: 20%;
+  margin-top: 5%;
+}
+.contenedor1 .Derecha{
+  width: 40%;
+  float: right;
+}
+.Derecha .Titulo h2{
+  text-align: center;
+  margin-top: 5%;
+}
+.Derecha .Marca h4{
+  text-align: left;
+  margin-top: 15%;
+}
+.Derecha .P_T_C{
+  width: 100%;
+}
+.Derecha .P_T_C .Precio{
+  width: 100%;
+  margin-top: 5%;
+}
+.Derecha .P_T_C .Precio .p1{
+  width: 50%;
+}
+.P_T_C .Precio .p1{
+  float: left;
+}
+.Derecha .P_T_C .Precio .p2{
+  width: 50%;
+}
+.P_T_C .Precio .p2{
+  float: right;
+}
+.Derecha .P_T_C .share{
+  width: 100%;
+}
+.P_T_C .share .Compartir{
+  width: 50%;
+}
+.P_T_C .share .Compartir h3{
+  float: left;
+}
+.P_T_C .share .Imagen{
+  width: 50%;
+}
+.P_T_C .share .Imagen img{
+  width: 5%;
+}
+.Derecha .C_A{
+  margin-top: 10%;
+  width: 100%;
+}
+.Derecha .C_A .Cantidades{
+  width: 100%;
+}
+.Derecha .C_A .Cantidades .btncantidad{
+  width: 50%;
+}
+.Derecha .C_A .Cantidades .btncantidad input{
+  width: 50%;
+  margin-top: 5%;
+  background-color: #D9D9D9;
+  border: 5px solid #D9D9D9;
+  border-radius: 20px;
+  text-align: center;
+}
+.Derecha .C_A .Cantidades .Agregar{
+  width: 50%;
+  float: right;
+}
+.C_A{
+  margin-top: 5%;
+}
+.C_A  .imagen{
+  width: 20%;
+  float: right;
+  
+}
+.C_A .imagen img{
+  width: 20%;
+}
+.C_A .texto h3{
+  margin-top: 5%;
+  float: left;
+  background-color:#4E4C9D;
+  ;
+  border: 5px solid #4E4C9D;
+  border-radius: 20px;
+}
+.Derecha .Descuento{
+  margin-top: 60%;
+  background-color: #D9D9D9;
+  border: 5px solid #D9D9D9;
+  border-radius: 20px;
+}
+.Derecha .Descuento p{
+  text-align: center;
+}
+.Derecha .Ventas{
+  margin-top: 10%;
+  width: 100%;
+}
+.Ventas .Telefono{
+  width: 40%;
+  background-color: #D9D9D9;
+  border: 5px solid #D9D9D9;
+  border-radius: 20px;
+  float: left;
+}
+.Ventas .Telefono .text1{
+  text-align: center;
+}
+.Ventas .Telefono .text2{
+  text-align: center;
+}
+.Ventas .Whatsaap{
+  background-color: #D9D9D9;
+  border: 5px solid #D9D9D9;
+  border-radius: 20px;
+  width: 40%;
+  float: right;
+}
+.Ventas .Whatsaap .text1{
+  text-align: center;
+}
+.Ventas .Whatsaap .text2{
+  text-align: center;
+}
+

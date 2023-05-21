@@ -11,19 +11,18 @@
 
 .cabecera .logo {
   width: 20%;
-  float: left;
   height: 100%;
+  float: left;
+  text-align: end;
 }
 .cabecera .logo img {
-  width: 40%;
+  width: 50%;
   height: 100%;
-  margin-left: 80px;
-  float: left;
 }
 .cabecera .logo h2 {
-  float: left;
-  color: white;
+  color: rgb(255, 255, 255);
   line-height: 100px;
+  float: right;
 }
 .cabecera .menu {
   width: 60%;

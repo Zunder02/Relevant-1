@@ -30,22 +30,20 @@
 }
 
 .lista_marca .marcas {
-  width: 50%;
-  height: 150px;
-  margin-left: 25%;
+  width: 60%;
+  margin: 0 20%;
+  overflow: auto;
 }
 .lista_marca .marcas ul {
-  margin-left: 18%;
+  width: 100%;
+  text-align: center;
 }
 .lista_marca .marcas ul li {
   list-style: none;
-  padding-right: 50px;
-}
-.lista_marca .marcas li {
   float: left;
+  width: 33.3%;
 }
 .lista_marca .marcas li img {
-  margin-top: 25px;
   width: 120px;
   height: 80px;
   border: solid rgb(0, 0, 0) 5px;

@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vista del producto </title>
-	<link rel="stylesheet" href="css/style.css" />
+    <title>Vista del producto</title>
+    <link rel="stylesheet" href="css/style_menu.css">
+    <link rel="stylesheet" href="css/style_vista.css">
 </head>
-<body>
+<body class="Fondo">
     <div class="cabecera" id="cabe">
         <div class="c_cabecera">
           <div class="logo">
@@ -34,62 +35,88 @@
           </div>
         </div>
       </div>
+    <div class="contenedor">
+        <div class="contenedor1">
+        <div class="Izquierda">
+            <div class="imagen01"><img src="imagenes/short.jpg"></div>
+            <div class="imagen02"><img src="imagenes/prueba01.webp"></div>
+            <div class="imagen03"><img src="imagenes/prueba02.webp"></div>
+        </div>
+        <div class="central">
+        <div class="producto"><img src="imagenes/short.jpg"></div>
+        <div class="circulos">
+       <img src="imagenes/circulo (1).png">
+       <img src="imagenes/circulo.png">
+       <img src="imagenes/circulo.png">
+        </div>
+        </div>
+        <div class="Derecha">
+        <div class="Titulo"><h2>Short deportivo de compresión para hombre</h2></div>
+        <div class="Marca"><h4>SANTOR SKU: 1000241861</h4></div>
+        <div class="P_T_C">
+          <div class="Precio">
+            <div class="p1">
+            <div class="Precio1"><h3>Precio online</h3></div>
+            <div class="Total1"><h3>S/. 39.90</h3></div>
+            </div>
+            <div class="p2">
+            <div class="Precio2"><h3>Precio lista</h3></div>
+            <div class="Total2"><h3>S/. 50</h3></div>
+            </div>
+         </div>
+        
+        </div>
+        <div class="C_A">
+            <div class="Cantidades">
+                <div class="btncantidad">
+                  <a href="#" onclick="decrementarCantidad()">-</a>
+                <input id="cantidad" type="text" size="2" value="1" />
+                <a href="#" onclick="incrementarCantidad()">+</a>
+                </div>
+            <div clases="Agregar">
+             
+              <div class="texto"><h3>Agregar</h3></div>
+            </div>
+            </div>
+            </div>
+        <div class="Descuento">
+          <p>Obtén hasta S/20 de dscto. adicional con Agora PAY¡Descarga la app y ahorra!</p>
+        </div>
+        <div class="Ventas">
+          <div class="Telefono">
+            <div class="text1">Venta Telefonica</div>
+            <div class="text2">999 999 999</div>
+          </div>
+          <div class="Whatsaap">
+            <div class="text1">Venta Whatsapp</div>
+            <div class="text2">(01)999 9999</div>
+          </div>
+        </div>
+            </div>
 
-    <div class="vista">
-        <table >
-            <tr>
-                <td><img src="Imagenes/short.jpg"></td>
-                <td><img src="Imagenes/short.jpg"></td>
-                <td><h2 ><font face="Inter">Short deportivo para hombres</h2></font></td>
-            </tr>
-            <tr>
-                <td><img src="Imagenes/prueba01.webp"></td>
-                <td><img src="Imagenes/circulo.png"> <img src="Imagenes/circulo (1).png"> <img src="Imagenes/circulo (1).png"></td>
-                
-                <td><table >
-                    <tr>
-                        <td><h3><font face="Inter">SANTOR SKU: 1000241861</font></h3></td>
-                       
-                       
-                    </tr>
-                    <tr>
-                        <td><h2><font face="Inter">Precio online S/. 39.90   Precio lista S/. 50</font></h2></td>
-                    
-                    </tr>
-                    <td><h2><font face="Inter">Compartir </font></h2></td>
-                </table></td>
-            </tr>
-            <tr>
-                <td><img src="Imagenes/prueba02.webp"></td>
-                <td></td>
-                <td><table>
-                    <tr> 
-                        <td><p>Cantidad: <select name="cantidad"> 
-                        <option value="1">1</option>
-                        <option value="2">2</option>    
-                        <option value="3">3</option>    
-                        <option value="4">4</option>    
-                        <option value="5">5</option>
-                        <option value="6">6</option> 
-                        <option value="7">7</option> 
-                        <option value="8">8</option> 
-                        <option value="9">9</option> 
-                        <option value="10">10</option>         
-                    </select></p></td>
-                        <td> <a href="carrito.html"><p>Agregar <img src="Imagenes/carrito-de-compras.png"></p></a></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">Obtén hasta S/20 de dscto. adicional con Agora PAY ¡Descarga la app y ahorra!</td>
-                    </tr>
-                    <tr>
-                        <td>Venta Telefonica (01)9999999</td>
-                        <td>Venta Whatsapp 9999999999</td>
-                    </tr>
-                </table></td>
-            </tr>
+        </div>
+        </div>
 
-        </table>
-    </div>
-    
+        <div class="pie">
+          <div class="titulo">
+            <h3>Siguenos en:</h3>
+          </div>
+          <div class="submenu">
+            <ul>
+              <li>
+                <a href=""><img src="imagenes/fb.png" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="imagenes/insta.png" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="imagenes/twitter.png" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="derecho">
+            <p>&copy; RELEVANT - Todos los derechos reservados</p>
+          </div>
+      
 </body>
 </html>
