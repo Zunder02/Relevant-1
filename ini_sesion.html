@@ -2,7 +2,8 @@
   <head>
     <meta charset="utf-8" />
     <title>Iniciar Sesión - RELEVANT</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_ini.css" />
+    <link rel="stylesheet" href="css/style_menu.css" />
   </head>
   <body>
     <div class="cabecera" id="cabe">
@@ -31,17 +32,48 @@
         </div>
       </div>
     </div>
-    <h3>Ingresar</h3>
+
     <div class="crear_cuenta">
-      <p>
-        <input name="correo" type="email" placeholder="Correo Electronico" />
-      </p>
-      <p>
-        <input name="contraseña" type="text" placeholder="Contraseña" />
-      </p>
-      <h3><a href="recuperar_contraseña.html" /> ¿Olvido su contraseña?</h3>
-      <a href="index.html"><input type="submit" value="Iniciar Sesión" /></a>
-      <h3><a href="crea_cuenta.html" />Crear Cuenta</h3>
+      <h1>Ingresar</h1>
+      <form class="contenedor">
+        <p>
+          <input name="correo" type="email" placeholder="Correo Electronico" />
+        </p>
+        <p>
+          <input name="contraseña" type="text" placeholder="Contraseña" />
+        </p>
+      </form>
+      <div class="ini_crear">
+        <h3><a href="recuperar_contraseña.html">¿Olvido su contraseña?</a></h3>
+        <div class="iniciar_sesion">
+          <a href="index.html"
+            ><input type="submit" value="Iniciar Sesion"
+          /></a>
+        </div>
+
+        <h3><a href="crea_cuenta.html" />Crear Cuenta</h3>
+      </div>
+    </div>
+    <div class="pie">
+      <div class="titulo">
+        <h3>Siguenos en:</h3>
+      </div>
+      <div class="submenu">
+        <ul>
+          <li>
+            <a href=""><img src="imagenes/fb.png" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="imagenes/insta.png" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="imagenes/twitter.png" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="derecho">
+        <p>&copy; RELEVANT - Todos los derechos reservados</p>
+      </div>
     </div>
   </body>
 </html>

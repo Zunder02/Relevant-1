@@ -1,0 +1,81 @@
+/*cONTENIDO*/
+.crear_cuenta h3 {
+  text-align: center;
+  font-size: x-large;
+  padding: 30px 0 20px 0;
+}
+.crear_cuenta {
+  width: 100%;
+  text-align: center;
+}
+
+.crear_cuenta input {
+  width: 40%;
+  height: 35px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.crear_cuenta .contenedor {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+/*btn */
+
+.crear_cuenta .ini_crear h3 a {
+  text-decoration: none;
+  font-size: large;
+  color: black;
+}
+
+.crear_cuenta .ini_crear .iniciar_sesion a {
+  text-align: center;
+}
+.crear_cuenta .ini_crear .iniciar_sesion a input {
+  width: 200px;
+  cursor: pointer;
+}
+.pie {
+  width: 95%;
+  padding: 2.5%;
+  background-color: rgb(0, 0, 0);
+  overflow: auto;
+}
+
+.pie .titulo {
+  padding-top: 10px;
+  width: 50%;
+  float: left;
+}
+
+.pie .titulo h3 {
+  color: rgb(255, 255, 255);
+}
+
+.pie .submenu {
+  padding-top: 10px;
+  width: 50%;
+  float: right;
+}
+
+.pie .submenu ul {
+  list-style: none;
+  float: right;
+}
+
+.pie .submenu ul li {
+  float: left;
+  padding-right: 50px;
+}
+
+.pie .submenu ul li img {
+  width: 30px;
+  height: 30px;
+}
+
+.pie .derecho {
+  width: 100%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  clear: both;
+}
