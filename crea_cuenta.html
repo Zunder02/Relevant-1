@@ -1,96 +1,116 @@
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Crear cuenta - RELEVANT</title>
-	<link rel="stylesheet" href="css/style_menu.css" />
-    <link rel="stylesheet" href="css/style_crea_cuenta.css" />
-  </head>
 
-  <body>
-    <div class="cabecera" id="cabe">
-      <div class="c_cabecera">
-        <div class="logo">
-          <img src="imagenes/logo.png" alt="" />
-          <h2>Relevant</h2>
-        </div>
-        <div class="menu">
-          <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="catalogo.html">Tienda</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-          </ul>
-        </div>
-        <div class="menu_logo">
-          <a href="carrito.html"><img src="imagenes/bolsa.png" alt="" /></a>
-          <div class="btn_iniciar">
-            <img src="imagenes/logo_usuario.png" alt="" />
-            <div class="contenido_btniniciar">
-              <a href="ini_sesion.html">Iniciar Sesión</a>
-              <a href="crea_cuenta.html">Regístrate</a>
-            </div>
+<head>
+  <meta charset="utf-8" />
+  <title>Crear cuenta - RELEVANT</title>
+  <link rel="stylesheet" href="css/style_menu.css" />
+  <link rel="stylesheet" href="css/style_crea_cuenta.css" />
+</head>
+
+<body>
+  <div class="cabecera" id="cabe">
+    <div class="c_cabecera">
+      <div class="logo">
+        <img src="imagenes/logo.png" alt="" />
+        <h2>Relevant</h2>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="catalogo.html">Tienda</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="menu_logo">
+        <a href="carrito.html"><img src="imagenes/bolsa.png" alt="" /></a>
+        <div class="btn_iniciar">
+          <img src="imagenes/logo_usuario.png" alt="" />
+          <div class="contenido_btniniciar">
+            <a href="ini_sesion.html">Iniciar Sesión</a>
+            <a href="crea_cuenta.html">Regístrate</a>
           </div>
         </div>
       </div>
     </div>
-    <div class="crearcuenta">
-      <h3>Crear Cuenta</h3>
-    </div>
-    <div class="correo">
-		<div class="conf_correo">
-				<div class="correo_electronico">
-						<input name="correo" type="email" placeholder="*Correo Electronico" /><br/>
-						<input name="contraseña" type="text" placeholder="*Contraseña"/><br/>	
-						<input name="nombre" type="text" placeholder="*Nombre" /><br/>
-						<input name="apellidos" type="text" placeholder="*Apellidos" /><br/>
-						<select name="opciones">
-						<option>DNI</option>
-						<option>Carnet de extranjeria</option>
-						><br />
-						<input name="number" placeholder="*Numero de Documento" />
-						
-						<h2>Fecha de nacimiento</h2>
-						<input
-						name="nacimiento"
-						type="date"
-						placeholder="*Fecha de nacimiento"
-						/><br/>
-				</div>
-				<div class="boton">
-					<input type="radio" name="Sexo" id="Masculino"/><label for="Masculino"> Masculino</label>
-					<input type="radio" name="Sexo" id="Femenino"/><label for="Masculino"> Femenino</label>
-					<input type="checkbox" name="terminos" /> He leído y aceptado la
-					Política de privacidad y los Terminos y condiciones del uso del sitio
-					web<br />
-					</p>
-					<p>
-					<input type="submit" value="ÚNETE" />
-					<a href="index.html"></a>
-					</p>
-				</div>
-			
-		</div>
-    </div>
-	<div class="pie">
-      <div class="titulo">
-        <h3>Siguenos en:</h3>
+  </div>
+  <div class="crearcuenta">
+    <h2>Crear Cuenta</h2>
+  </div>
+  <div class="correo">
+    <form action="crear_cuenta">
+      <p>
+        <input name="correo" type="email" placeholder="*Correo Electrónico" />
+      </p>
+      <p>
+        <input name="contraseña" type="password" placeholder="*Contraseña" />
+      </p>
+      <p>
+        <input name="nombre" type="text" placeholder="*Nombre" />
+      </p>
+      <p>
+        <input name="apellidos" type="text" placeholder="*Apellidos" />
+      </p>
+      <p>
+        <label>*Tipo de Documento</label>
+        <select name="opciones">
+          <option>DNI</option>
+          <option>Carnet de Extranjería</option>
+        </select>
+      </p>
+      <p>
+        <input name="number" type="number" placeholder="*Número de Documento" />
+      </p>
+      <p>
+        <label>Fecha de nacimiento</label>
+        <input name="nacimiento" type="date" placeholder="*Fecha de nacimiento" />
+      </p>
+      <div class="datos">
+        <p>
+          <label>
+            <input type="radio" name="Sexo" /> Masculino
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="Sexo" /> Femenino
+          </label>
+        </p>
       </div>
-      <div class="submenu">
-        <ul>
-          <li>
-            <a href=""><img src="imagenes/fb.png" alt="" /></a>
-          </li>
-          <li>
-            <a href=""><img src="imagenes/insta.png" alt="" /></a>
-          </li>
-          <li>
-            <a href=""><img src="imagenes/twitter.png" alt="" /></a>
-          </li>
-        </ul>
+      <p>
+        <input type="checkbox" name="terminos" /> He leído y aceptado la Política de privacidad y los Términos y
+        condiciones del uso del sitio web
+      </p>
+      <div class="únete">
+        <p>
+          <input type="submit" value="ÚNETE" />
+        <h2><a href="index.html">Volver</a>
+          <h2>
+            </p>
       </div>
-      <div class="derecho">
-        <p>&copy; RELEVANT - Todos los derechos reservados</p>
-      </div>
+    </form>
+  </div>
+  <!--PIE-->
+  <div class="pie">
+    <div class="titulo">
+      <h3>Siguenos en:</h3>
     </div>
-  </body>
+    <div class="submenu">
+      <ul>
+        <li>
+          <a href=""><img src="imagenes/fb.png" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="imagenes/insta.png" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="imagenes/twitter.png" alt="" /></a>
+        </li>
+      </ul>
+    </div>
+    <div class="derecho">
+      <p>&copy; RELEVANT - Todos los derechos reservados</p>
+    </div>
+  </div>
+</body>
+
 </html>

@@ -1,297 +1,294 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-.Vista{
-    width: 100%;
-    overflow: auto;
+.Vista {
+  width: 100%;
+  overflow: auto;
 }
-.Vista .Izquierda{
-    width: 46%;
-    float: left;
-    padding: 2%;
-    background-color: black;
+.Vista .Izquierda {
+  width: 46%;
+  float: left;
+  padding: 2%;
+  background-color: black;
 }
-.Vista .product{
-    width: 46%;
-    float: right;
-    padding: 2%;
-    padding-top: 5%;
+.Vista .product {
+  width: 46%;
+  float: right;
+  padding: 2%;
+  padding-top: 5%;
 }
 
-.Vista .Izquierda .Logo{
-    width: 70%;
-    padding-left: 15%;
-    padding-right: 15%;
-    text-align: center;
+.Vista .Izquierda .Logo {
+  width: 70%;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
 }
-.Vista .Izquierda .Logo img{
-    width: 50%;
+.Vista .Izquierda .Logo img {
+  width: 50%;
 }
-.Vista  .migas_pan{
-    width: 38%;
-    overflow: auto;
-    padding-left: 31%;
-    padding-right: 31%;
+.Vista .migas_pan {
+  width: 40%;
+  overflow: auto;
+  padding: 0 30%;
 }
 .Vista .migas_pan ol {
-    width: 100%;
+  width: 100%;
 }
 
 .Vista .migas_pan ol li {
-    list-style: none;
-    float: left;
+  list-style: none;
+  float: left;
 }
 
 .Vista .migas_pan ol li a {
-    color: #FF5C00;
-    text-decoration: none;
+  color: #ff5c00;
+  text-decoration: none;
 }
 
 .Vista .migas_pan .migas_select {
-    color: #ffffff;
-    font-weight: bold;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .Vista .migas_pan .signo {
-    color: #ffffff;
-    padding-left: 2%;
-    padding-right: 2%;
+  color: #ffffff;
+  padding-left: 2%;
+  padding-right: 2%;
 }
-.Formulario{
-    width: 100%;
+.Formulario {
+  width: 100%;
 }
-.Formulario .Contenido01{
-    width: 95%;
-    padding: 2.5%;
+.Formulario .Contenido01 {
+  width: 95%;
+  padding: 2.5%;
 }
-.Formulario .Contenido01 .Info{
-    color: white;
-    margin-top: 2.5%;
-    overflow: auto;
+.Formulario .Contenido01 .Info {
+  color: white;
+  margin-top: 2.5%;
+  overflow: auto;
 }
-.Formulario .Contenido01 .Pregunta{
-    float: right;
-    color: white;
+.Formulario .Contenido01 .Pregunta {
+  float: right;
+  color: white;
 }
-.Formulario .Contenido01 .Correo input{
-    background-color: #D9D9D9;
-    border: 5px solid #D9D9D9;
-    margin-top: 2.5%;
-    width: 95%;
-    border-radius: 20px;
+.Formulario .Contenido01 .Correo input {
+  background-color: #d9d9d9;
+  border: 5px solid #d9d9d9;
+  margin-top: 2.5%;
+  width: 95%;
+  border-radius: 20px;
 }
-.Formulario .Contenido01 .Enviar{
-    color: white;
+.Formulario .Contenido01 .Enviar {
+  color: white;
 }
-.Formulario .Contenido01 .Enviar input{
-    margin-top: 2%;
+.Formulario .Contenido01 .Enviar input {
+  margin-top: 2%;
 }
-.Form{
-    width: 95%;
-    padding: 2.5%;
+.Form {
+  width: 95%;
+  padding: 2.5%;
 }
-.Form .Direccion{
-    color: white;
-    overflow: auto;
+.Form .Direccion {
+  color: white;
+  overflow: auto;
 }
-.Form .Pais select{
-    background-color: #D9D9D9;
-    border: 5px solid #D9D9D9;
-    border-radius: 20px;
-    margin-top: 2.5%;
-    width: 96%;
-    
+.Form .Pais select {
+  background-color: #d9d9d9;
+  border: 5px solid #d9d9d9;
+  border-radius: 20px;
+  margin-top: 2.5%;
+  width: 96%;
 }
-.Form .N_A{
-    width: 100%;
-    margin-top: 2.5%;
+.Form .N_A {
+  width: 100%;
+  margin-top: 2.5%;
 }
-.Form .N_A .Nombres{
-    width: 50%;
-    float: left;
+.Form .N_A .Nombres {
+  width: 50%;
+  float: left;
 }
-.Form .N_A .Nombres input{
-    background-color: #D9D9D9;
-    width: 90%;
-    border: 5px solid #D9D9D9;
-    border-radius: 20px;
+.Form .N_A .Nombres input {
+  background-color: #d9d9d9;
+  width: 90%;
+  border: 5px solid #d9d9d9;
+  border-radius: 20px;
 }
-.Form .N_A .Apellidos{
-    width: 50%;
-    float: right;
+.Form .N_A .Apellidos {
+  width: 50%;
+  float: right;
 }
-.Form .N_A .Apellidos input{
-    background-color: #D9D9D9;
-    width: 90%;
-    border: 5px solid #D9D9D9;
-    border-radius: 20px;
+.Form .N_A .Apellidos input {
+  background-color: #d9d9d9;
+  width: 90%;
+  border: 5px solid #d9d9d9;
+  border-radius: 20px;
 }
-.Form .Identidad input{
-    margin-top: 2.5%;
-    width: 95%;
-    background-color: #D9D9D9;
-    border: 5px solid #D9D9D9;
-    border-radius: 20px;
+.Form .Identidad input {
+  margin-top: 2.5%;
+  width: 95%;
+  background-color: #d9d9d9;
+  border: 5px solid #d9d9d9;
+  border-radius: 20px;
 }
-.Form .Direccion input{
-    margin-top: 2.5%;
-    width: 95%;
-    background-color: #D9D9D9;
-    border: 5px solid #D9D9D9;
-    border-radius: 20px;
+.Form .Direccion input {
+  margin-top: 2.5%;
+  width: 95%;
+  background-color: #d9d9d9;
+  border: 5px solid #d9d9d9;
+  border-radius: 20px;
 }
-.Form .Referencia input{
-    margin-top: 2.5%;
-    width: 95%;
-    background-color: #D9D9D9;
-    border: 5px solid #D9D9D9;
-    border-radius: 20px;
+.Form .Referencia input {
+  margin-top: 2.5%;
+  width: 95%;
+  background-color: #d9d9d9;
+  border: 5px solid #d9d9d9;
+  border-radius: 20px;
 }
-.Form .C_C{
-    width: 100%;
-    margin-top: 2.5%;
+.Form .C_C {
+  width: 100%;
+  margin-top: 2.5%;
 }
-.Form .C_C .Codigo{
-    width: 50%;
-    float: left;
+.Form .C_C .Codigo {
+  width: 50%;
+  float: left;
 }
-.Form .C_C .Codigo input{
-    background-color: #D9D9D9;
-    border: 5px solid #D9D9D9;
-    width: 90%;
-    border-radius: 20px;
+.Form .C_C .Codigo input {
+  background-color: #d9d9d9;
+  border: 5px solid #d9d9d9;
+  width: 90%;
+  border-radius: 20px;
 }
-.Form .C_C .Ciudad{
-    width: 50%;
-    float: right;
+.Form .C_C .Ciudad {
+  width: 50%;
+  float: right;
 }
-.Form .C_C .Ciudad input{
-    background-color: #D9D9D9;
-    border: 5px solid #D9D9D9;
-    width: 90%;
-    border-radius: 20px;
+.Form .C_C .Ciudad input {
+  background-color: #d9d9d9;
+  border: 5px solid #d9d9d9;
+  width: 90%;
+  border-radius: 20px;
 }
-.Form .Telefono input{
-    background-color: #D9D9D9;
-    border: 5px solid #D9D9D9;
-    width: 95%;
-    border-radius: 20px;
-    margin-top: 2.5%;
+.Form .Telefono input {
+  background-color: #d9d9d9;
+  border: 5px solid #d9d9d9;
+  width: 95%;
+  border-radius: 20px;
+  margin-top: 2.5%;
 }
-.Form .Enviar{
-    color: white;
+.Form .Enviar {
+  color: white;
 }
-.Form .Enviar input{
-    margin-top: 2%;
+.Form .Enviar input {
+  margin-top: 2%;
 }
-.Vista .Izquierda .botones{
-    width: 95%;
-    padding: 2.5%;
+.Vista .Izquierda .botones {
+  width: 95%;
+  padding: 2.5%;
 }
-.Vista .Izquierda .botones .carrito{
-    width: 100%;
+.Vista .Izquierda .botones .carrito {
+  width: 100%;
 }
-.Vista .Izquierda .botones .carrito a{
-    text-decoration: none;
-    color: #F63B3B;
+.Vista .Izquierda .botones .carrito a {
+  text-decoration: none;
+  color: #f63b3b;
 }
-.Vista .Izquierda .botones .envios{
-    width: 95%;
-    text-align: end;
-    padding: 2.5%;
+.Vista .Izquierda .botones .envios {
+  width: 95%;
+  text-align: end;
+  padding: 2.5%;
 }
-.Vista .Izquierda .botones .envios a{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #F63B3B;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #ffffff;
+.Vista .Izquierda .botones .envios a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f63b3b;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
 }
-.Vista .Izquierda .pie{
-    width: 95%;
-    padding: 2.5%;
+.Vista .Izquierda .pie {
+  width: 95%;
+  padding: 2.5%;
 }
-.Vista .Izquierda .pie .submenu{
-    width: 100%;
-    overflow: auto;
+.Vista .Izquierda .pie .submenu {
+  width: 100%;
+  overflow: auto;
 }
-.Vista .Izquierda .pie .submenu ul li{
-    width: 33.3%;
-    float: left;
-    text-align: center;
-    padding-top: 5%;
+.Vista .Izquierda .pie .submenu ul li {
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  padding-top: 5%;
 }
-.Vista .Izquierda .pie .submenu ul li a{
-    text-decoration: none;
-    color: #F63B3B;
+.Vista .Izquierda .pie .submenu ul li a {
+  text-decoration: none;
+  color: #f63b3b;
 }
-.Vista .Izquierda .pie p{
-    clear: both;
-    color: #F63B3B;
-    padding-top: 5%;
-    text-align: center;
+.Vista .Izquierda .pie p {
+  clear: both;
+  color: #f63b3b;
+  padding-top: 5%;
+  text-align: center;
 }
 /*Productos*/
-.Vista .product .tproductos{
-    width: 100%;
-    overflow: auto;
-    padding-bottom: 5%;
+.Vista .product .tproductos {
+  width: 100%;
+  overflow: auto;
+  padding-bottom: 5%;
 }
-.Vista .product .tproductos .contimg{
-    width: 15.3%;
-    float: left;
-    padding: 1%;
+.Vista .product .tproductos .contimg {
+  width: 15.3%;
+  float: left;
+  padding: 1%;
 }
-.Vista .product .tproductos .context{
-    width: 60.3%;
-    float: left;
-    padding: 1%;
-    text-align: center;
+.Vista .product .tproductos .context {
+  width: 60.3%;
+  float: left;
+  padding: 1%;
+  text-align: center;
 }
-.Vista .product .tproductos .contprecio{
-    width: 15.3%;
-    float: left;
-    padding: 1%;
-    text-align: end;
+.Vista .product .tproductos .contprecio {
+  width: 15.3%;
+  float: left;
+  padding: 1%;
+  text-align: end;
 }
-.Vista .product .tproductos .contimg img{
-    width: 100%;
+.Vista .product .tproductos .contimg img {
+  width: 100%;
 }
 /*montos*/
-.Vista .product .montos{
-    width: 100%;
-    padding-bottom: 5%;
+.Vista .product .montos {
+  width: 100%;
+  padding-bottom: 5%;
 }
-.Vista .product .montos p{
-    font-weight: bold;
-    font-size: 20px;
+.Vista .product .montos p {
+  font-weight: bold;
+  font-size: 20px;
 }
-.Vista .product .montos .cont_monto{
-    width: 100%;
-    overflow: auto;
+.Vista .product .montos .cont_monto {
+  width: 100%;
+  overflow: auto;
 }
-.Vista .product .montos .cont_monto .text{
-    width: 48%;
-    float: left;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 4%;
-    padding-top: 4%;
+.Vista .product .montos .cont_monto .text {
+  width: 48%;
+  float: left;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 4%;
+  padding-top: 4%;
 }
-.Vista .product .montos .cont_monto .precio{
-    width: 48%;
-    float: right;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 4%;
-    padding-top: 4%;
+.Vista .product .montos .cont_monto .precio {
+  width: 48%;
+  float: right;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 4%;
+  padding-top: 4%;
 }
-.Vista .product .montos .cont_monto .precio p{
-    text-align: end;
+.Vista .product .montos .cont_monto .precio p {
+  text-align: end;
 }
-

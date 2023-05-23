@@ -1,18 +1,19 @@
 /*cONTENIDO*/
-.crear_cuenta h3 {
+.crear_cuenta h1 {
   text-align: center;
-  font-size: x-large;
-  padding: 30px 0 20px 0;
+  padding: 3% 0;
 }
 .crear_cuenta {
   width: 100%;
   text-align: center;
 }
-
+.crear_cuenta p {
+  width: 100%;
+  padding: 2% 0;
+}
 .crear_cuenta input {
   width: 40%;
-  height: 35px;
-  margin-top: 20px;
+  height: 40px;
   border-radius: 10px;
 }
 
@@ -21,7 +22,13 @@
   padding-right: 10%;
 }
 /*btn */
-
+.crear_cuenta .ini_crear {
+  width: 100%;
+  padding: 3.3% 0;
+}
+.crear_cuenta .ini_crear h3 {
+  padding: 1% 0;
+}
 .crear_cuenta .ini_crear h3 a {
   text-decoration: none;
   font-size: large;
@@ -30,9 +37,10 @@
 
 .crear_cuenta .ini_crear .iniciar_sesion a {
   text-align: center;
+  padding: 1% 0;
 }
 .crear_cuenta .ini_crear .iniciar_sesion a input {
-  width: 200px;
+  width: 20%;
   cursor: pointer;
 }
 .pie {

@@ -1,0 +1,45 @@
+.recuperar {
+  width: 80%;
+  padding: 9% 10%;
+}
+
+.recuperar .texto {
+  text-align: center;
+  padding: 2% 0;
+}
+.recuperar .texto h2 {
+  font-size: 30px;
+}
+
+.recuperar form {
+  width: 35%;
+  padding: 2% 32.5%;
+}
+
+.recuperar form p {
+  margin-bottom: 5%;
+}
+.recuperar input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.recuperar input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px; /* Espacio superior */
+  margin-bottom: 10px; /* Espacio inferior */
+}
+
+.recuperar a {
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+}

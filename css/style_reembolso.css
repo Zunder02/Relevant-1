@@ -1,0 +1,28 @@
+.contenido {
+  width: 70%;
+  padding: 0 15%;
+}
+.contenido h1 {
+  text-align: center;
+  margin: 4% 0;
+}
+.contenido h2 {
+  margin: 2% 0;
+  font-size: 33px;
+}
+.contenido p {
+  margin: 2% 0;
+  font-size: 30px;
+}
+.contenido h3 {
+  margin: 2% 0;
+  font-size: 31px;
+}
+.contenido ul {
+  width: 95%;
+  padding: 0 2.5%;
+}
+.contenido ul li {
+  font-size: 30px;
+  margin: 1% 0;
+}
