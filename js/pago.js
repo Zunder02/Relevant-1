@@ -2,7 +2,7 @@ var acc = document.getElementsByClassName("acordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
+  acc[i].addEventListener("click", function () {
     var isActive = this.classList.contains("active");
 
     // Cerrar todos los paneles desplegados
@@ -24,3 +24,7 @@ function closeAllPanels() {
     acc[j].classList.remove("active");
   }
 }
+/*activando el primer acordion */
+acc[0].classList.add("active");
+var panel = acc[0].nextElementSibling;
+panel.style.maxHeight = panel.scrollHeight + "px";

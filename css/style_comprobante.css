@@ -1,258 +1,286 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.contenido_comprobante{
-    width: 100%;
-    overflow: auto;
+.contenido_comprobante {
+  width: 100%;
+  overflow: auto;
 }
-.contenido_comprobante .form1{
-    width: 46%;
-    float: left;
-    padding: 2%;
-    background-color: #000000;
+.contenido_comprobante .form1 {
+  width: 46%;
+  float: left;
+  padding: 2%;
+  background-color: #000000;
 }
 .contenido_comprobante .product {
-    width: 46%;
-    float: right;
-    padding: 2%;
-    padding-top: 5%;
+  width: 46%;
+  float: right;
+  padding: 2%;
+  padding-top: 5%;
 }
 /*logo*/
 .contenido_comprobante .form1 .logo {
-    width: 70%;
-    padding-left: 15%;
-    padding-right: 15%;
-    text-align: center;
+  width: 70%;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
 }
 .contenido_comprobante .form1 .logo a img {
-    width: 50%;
+  width: 50%;
 }
 /*confirmacion de pedido*/
-.contenido_comprobante .confirmacion_pedido{
-    width: 95%;
-    padding: 2.5%;
-    overflow: auto;
+.contenido_comprobante .confirmacion_pedido {
+  width: 95%;
+  padding: 2.5%;
+  overflow: auto;
 }
-.contenido_comprobante .confirmacion_pedido .check{
-    width: 15%;
-    float: left;
+.contenido_comprobante .confirmacion_pedido .check {
+  width: 15%;
+  float: left;
 }
-.contenido_comprobante .confirmacion_pedido .cod_pedido{
-    width: 83%;
-    float: right;
-    padding-top: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
+.contenido_comprobante .confirmacion_pedido .cod_pedido {
+  width: 83%;
+  float: right;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
-.contenido_comprobante .confirmacion_pedido .agradecimiento{
-    width: 83%;
-    float: right;
-    padding: 1%;   
+.contenido_comprobante .confirmacion_pedido .agradecimiento {
+  width: 83%;
+  float: right;
+  padding: 1%;
 }
-.contenido_comprobante .confirmacion_pedido .check img{
-    width: 100%;
+.contenido_comprobante .confirmacion_pedido .check img {
+  width: 100%;
 }
-.contenido_comprobante .confirmacion_pedido .cod_pedido h3{
-    color: gray;
+.contenido_comprobante .confirmacion_pedido .cod_pedido h3 {
+  color: gray;
 }
-.contenido_comprobante .confirmacion_pedido .agradecimiento h1{
-    color: #ffffff;
+.contenido_comprobante .confirmacion_pedido .agradecimiento h1 {
+  color: #ffffff;
 }
 
 /*confirmacion de pedido*/
-.contenido_comprobante .desc_confirma_pedido{
-    width: 95%;
-    padding: 2.5%;
+.contenido_comprobante .desc_confirma_pedido {
+  width: 95%;
+  padding: 2.5%;
 }
-.contenido_comprobante .desc_confirma_pedido .descrip_pedido{
-    width: 100%;
-    background-color: #D9D9D9;
-    border-radius: 10px;
-    margin-bottom: 5%;
-}
-
-.contenido_comprobante .desc_confirma_pedido .descrip_pedido .titulo{
-    width: 96%;
-    padding: 2%;
-}
-.contenido_comprobante .desc_confirma_pedido .descrip_pedido .titulo h3{
-    font-size: 20px;
+.contenido_comprobante .desc_confirma_pedido .descrip_pedido {
+  width: 100%;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  margin-bottom: 5%;
 }
 
-.contenido_comprobante .desc_confirma_pedido .descrip_pedido .descrip{
-    width: 96%;
-    padding:2%;
-    padding-top: 0;
-    text-align: center;
+.contenido_comprobante .desc_confirma_pedido .descrip_pedido .titulo {
+  width: 96%;
+  padding: 2%;
 }
-.contenido_comprobante .desc_confirma_pedido .descrip_pedido .descrip ul li{
-    list-style: none;
-    font-size: 18px;
+.contenido_comprobante .desc_confirma_pedido .descrip_pedido .titulo h3 {
+  font-size: 20px;
 }
-.contenido_comprobante .desc_confirma_pedido .descrip_pedido .descrip p{
-    font-size: 18px;
-    padding-bottom: 2%;
+
+.contenido_comprobante .desc_confirma_pedido .descrip_pedido .descrip {
+  width: 96%;
+  padding: 2%;
+  padding-top: 0;
+  text-align: center;
+}
+.contenido_comprobante .desc_confirma_pedido .descrip_pedido .descrip ul li {
+  list-style: none;
+  font-size: 18px;
+}
+.contenido_comprobante .desc_confirma_pedido .descrip_pedido .descrip p {
+  font-size: 18px;
+  padding-bottom: 2%;
 }
 /*Informacion de cliente*/
-.contenido_comprobante .desc_confirma_pedido .informacion_cliente{
-    width: 100%;
-    background-color: #D9D9D9;
-    border-radius: 10px;
-    overflow: auto;
+.contenido_comprobante .desc_confirma_pedido .informacion_cliente {
+  width: 100%;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  overflow: auto;
 }
-.contenido_comprobante .desc_confirma_pedido .informacion_cliente .titulo{
-    width: 96%;
-    padding: 2%;
+.contenido_comprobante .desc_confirma_pedido .informacion_cliente .titulo {
+  width: 96%;
+  padding: 2%;
 }
-.contenido_comprobante .desc_confirma_pedido .informacion_cliente .titulo h3{
-    font-size: 20px;
+.contenido_comprobante .desc_confirma_pedido .informacion_cliente .titulo h3 {
+  font-size: 20px;
 }
-.contenido_comprobante .desc_confirma_pedido .informacion_cliente .left{
-    width: 46%;
-    padding: 2%;
-    float: left;
+.contenido_comprobante .desc_confirma_pedido .informacion_cliente .left {
+  width: 46%;
+  padding: 2%;
+  float: left;
 }
-.contenido_comprobante .desc_confirma_pedido .informacion_cliente .right{
-    width: 46%;
-    padding: 2%;
-    float: right;
+.contenido_comprobante .desc_confirma_pedido .informacion_cliente .right {
+  width: 46%;
+  padding: 2%;
+  float: right;
 }
-.contenido_comprobante .desc_confirma_pedido .informacion_cliente .left .info{
-    width: 96%;
-    padding-bottom: 5%;
-    padding-left: 2%;
-    padding-right: 2%;
+.contenido_comprobante .desc_confirma_pedido .informacion_cliente .left .info {
+  width: 96%;
+  padding-bottom: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
-.contenido_comprobante .desc_confirma_pedido .informacion_cliente .left .info ul li{
-    list-style: none;
+.contenido_comprobante
+  .desc_confirma_pedido
+  .informacion_cliente
+  .left
+  .info
+  ul
+  li {
+  list-style: none;
 }
-.contenido_comprobante .desc_confirma_pedido .informacion_cliente .right .info2{
-    width: 96%;
-    padding-bottom: 5%;
-    padding-left: 2%;
-    padding-right: 2%;
+.contenido_comprobante
+  .desc_confirma_pedido
+  .informacion_cliente
+  .right
+  .info2 {
+  width: 96%;
+  padding-bottom: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
-.contenido_comprobante .desc_confirma_pedido .informacion_cliente .right .info2 ul li{
-    list-style: none;
+.contenido_comprobante
+  .desc_confirma_pedido
+  .informacion_cliente
+  .right
+  .info2
+  ul
+  li {
+  list-style: none;
 }
 /*Botones*/
-.contenido_comprobante .form1 .botones{
-    width: 95%;
-    padding: 2.5%;
+.contenido_comprobante .form1 .botones {
+  width: 95%;
+  padding: 2.5%;
 }
-.contenido_comprobante .form1 .botones .btnayuda{
-    width: 100%;
+.contenido_comprobante .form1 .botones .btnayuda {
+  width: 100%;
 }
-.contenido_comprobante .form1 .botones .btnayuda p{
-    color: #ffffff;
+.contenido_comprobante .form1 .botones .btnayuda p {
+  color: #ffffff;
 }
-.contenido_comprobante .form1 .botones .btnayuda p a{
-    color: #FF5C00;
-    text-decoration: none;
+.contenido_comprobante .form1 .botones .btnayuda p a {
+  color: #ff5c00;
+  text-decoration: none;
 }
-.contenido_comprobante .form1 .botones .btnseguir{
-    width: 95%;
-    text-align: end;
-    padding: 2.5%;
+.contenido_comprobante .form1 .botones .btnseguir {
+  width: 95%;
+  text-align: end;
+  padding: 2.5%;
 }
-.contenido_comprobante .form1 .botones .btnseguir a{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #F63B3B;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #ffffff;
+.contenido_comprobante .form1 .botones .btnseguir a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f63b3b;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
 }
 /*PIE*/
-.contenido_comprobante .form1 .pie{
-    width: 95%;
-    padding: 2.5%;
+.contenido_comprobante .form1 .pie {
+  width: 95%;
+  padding: 2.5%;
 }
-.contenido_comprobante .form1 .pie .submenu{
-    width: 100%;
-    overflow: auto;
+.contenido_comprobante .form1 .pie .submenu {
+  width: 100%;
+  overflow: auto;
 }
-.contenido_comprobante .form1 .pie .submenu ul li{
-    width: 33.3%;
-    float: left;
-    text-align: center;
-    padding-top: 5%;
+.contenido_comprobante .form1 .pie .submenu ul li {
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  padding-top: 5%;
 }
-.contenido_comprobante .form1 .pie .submenu ul li a{
-    text-decoration: none;
-    color: #F63B3B;
+.contenido_comprobante .form1 .pie .submenu ul li a {
+  text-decoration: none;
+  color: #f63b3b;
 }
-.contenido_comprobante .form1 .pie p{
-    clear: both;
-    color: #F63B3B;
-    padding-top: 5%;
-    text-align: center;
+.contenido_comprobante .form1 .pie p {
+  clear: both;
+  color: #f63b3b;
+  padding-top: 5%;
+  text-align: center;
 }
 /*PRODUCTOS*/
-.contenido_comprobante .product .tproductos{
-    width: 100%;
-    overflow: auto;
-    padding-bottom: 5%;
+.contenido_comprobante .product .tproductos {
+  width: 100%;
+  overflow: auto;
+  padding-bottom: 5%;
 }
-.contenido_comprobante .product .tproductos .contimg{
-    width: 15.3%;
-    float: left;
-    padding: 1%;
+.contenido_comprobante .product .tproductos .contimg {
+  width: 15.3%;
+  float: left;
+  padding: 1%;
 }
-.contenido_comprobante .product .tproductos .context{
-    width: 60.3%;
-    float: left;
-    padding: 1%;
-    text-align: center;
+.contenido_comprobante .product .tproductos .context {
+  width: 60.3%;
+  float: left;
+  padding: 1%;
+  text-align: center;
 }
-.contenido_comprobante .product .tproductos .contprecio{
-    width: 15.3%;
-    float: left;
-    padding: 1%;
-    text-align: end;
+.contenido_comprobante .product .tproductos .contprecio {
+  width: 15.3%;
+  float: left;
+  padding: 1%;
+  text-align: end;
 }
-.contenido_comprobante .product .tproductos .contimg img{
-    width: 100%;
+.contenido_comprobante .product .tproductos .contimg img {
+  width: 100%;
 }
 /*montos*/
-.contenido_comprobante .product .montos{
+.contenido_comprobante .product .montos {
+  width: 100%;
+  padding-bottom: 5%;
+}
+.contenido_comprobante .product .montos p {
+  font-weight: bold;
+  font-size: 20px;
+}
+.contenido_comprobante .product .montos .cont_monto {
+  width: 100%;
+  overflow: auto;
+}
+.contenido_comprobante .product .montos .cont_monto .text {
+  width: 48%;
+  float: left;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 4%;
+  padding-top: 4%;
+}
+.contenido_comprobante .product .montos .cont_monto .precio {
+  width: 48%;
+  float: right;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 4%;
+  padding-top: 4%;
+}
+.contenido_comprobante .product .montos .cont_monto .precio p {
+  text-align: end;
+}
+/*RESPONSIVE*/
+@media screen and (max-width: 360px) {
+  .contenido_comprobante .product {
+    display: none;
+  }
+  .contenido_comprobante .form1 {
     width: 100%;
-    padding-bottom: 5%;
-}
-.contenido_comprobante .product .montos p{
-    font-weight: bold;
-    font-size: 20px;
-}
-.contenido_comprobante .product .montos .cont_monto{
+    padding: 0;
+  }
+  .contenido_comprobante .form1 .botones .btnayuda {
     width: 100%;
-    overflow: auto;
+    margin-bottom: 10%;
+    text-align: center;
+  }
+  .contenido_comprobante .form1 .botones .btnseguir {
+    margin: 5% 0;
+  }
 }
-.contenido_comprobante .product .montos .cont_monto .text{
-    width: 48%;
-    float: left;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 4%;
-    padding-top: 4%;
-}
-.contenido_comprobante .product .montos .cont_monto .precio{
-    width: 48%;
-    float: right;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 4%;
-    padding-top: 4%;
-}
-.contenido_comprobante .product .montos .cont_monto .precio p{
-    text-align: end;
-}
-
-
-
-
-
-

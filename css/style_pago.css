@@ -1,305 +1,325 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .contenido_pago {
-    width: 100%;
-    overflow: auto;
+  width: 100%;
+  overflow: auto;
 }
 
 .contenido_pago .form {
-    width: 46%;
-    float: left;
-    padding: 2%;
-    background-color: #000000;
+  width: 46%;
+  float: left;
+  padding: 2%;
+  background-color: #000000;
 }
 
 .contenido_pago .product {
-    width: 46%;
-    float: right;
-    padding: 2%;
-    padding-top: 5%;
+  width: 46%;
+  float: right;
+  padding: 2%;
+  padding-top: 5%;
 }
 
 /*logo*/
 .contenido_pago .form .logo {
-    width: 70%;
-    padding-left: 15%;
-    padding-right: 15%;
-    text-align: center;
+  width: 70%;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
 }
 
 .contenido_pago .form .logo a img {
-    width: 50%;
+  width: 50%;
 }
 
 /*migas*/
 .contenido_pago .migas_pan {
-    width: 38%;
-    overflow: auto;
-    padding-left: 31%;
-    padding-right: 31%;
+  width: 38%;
+  overflow: auto;
+  padding-left: 31%;
+  padding-right: 31%;
 }
 
 .contenido_pago .migas_pan ol {
-    width: 100%;
+  width: 100%;
 }
 
 .contenido_pago .migas_pan ol li {
-    list-style: none;
-    float: left;
+  list-style: none;
+  float: left;
 }
 
 .contenido_pago .migas_pan ol li a {
-    color: #FF5C00;
-    text-decoration: none;
+  color: #ff5c00;
+  text-decoration: none;
 }
 
 .contenido_pago .migas_pan .migas_select {
-    color: #ffffff;
-    font-weight: bold;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .contenido_pago .migas_pan .signo {
-    color: #ffffff;
-    padding-left: 2%;
-    padding-right: 2%;
+  color: #ffffff;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 /*contenido general*/
 .contenido_general {
-    width: 100%;
+  width: 100%;
 }
 
 .contenido_general .contenido {
-    width: 95%;
-    padding: 2.5%;
+  width: 95%;
+  padding: 2.5%;
 }
 
 /*informacion_contacto*/
 .contenido_general .contenido .informacion {
-    width: 97%;
-    padding: 1.5%;
-    background-color: #a7a7a7;
-    overflow: auto;
-    border-radius: 15px;
-    margin-bottom: 2%;
+  width: 97%;
+  padding: 1.5%;
+  background-color: #a7a7a7;
+  overflow: auto;
+  border-radius: 15px;
+  margin-bottom: 2%;
 }
 
 .contenido_general .contenido .informacion .texto {
-    width: 22%;
-    float: left;
-    opacity: 75%;
-    padding-left: 1%;
+  width: 22%;
+  float: left;
+  opacity: 75%;
+  padding-left: 1%;
 }
 
 .contenido_general .contenido .informacion .correo {
-    width: 56%;
-    float: left;
+  width: 56%;
+  float: left;
 }
 
 .contenido_general .contenido .informacion .d_cambiar {
-    float: right;
-    width: 20%;
-    padding-right: 1%;
+  float: right;
+  width: 20%;
+  padding-right: 1%;
 }
 
 .contenido_general .contenido .informacion .d_cambiar a {
-    float: right;
-    text-decoration: none;
-    color: #D54646;
-    font-weight: bold;
+  float: right;
+  text-decoration: none;
+  color: #d54646;
+  font-weight: bold;
 }
 
 /*Contenido pago*/
 .contenido_general .pagogeneral {
-    width: 95%;
-    padding: 2.5%;
+  width: 95%;
+  padding: 2.5%;
 }
 
 /*titulo*/
 .contenido_general .pagogeneral .titulo {
-    width: 100%;
-
+  width: 100%;
 }
 
 .contenido_general .pagogeneral .titulo h3 {
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 30px;
-    padding-bottom: 2%;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 2%;
 }
 
 .contenido_general .pagogeneral .titulo h4 {
-    color: #ffffff;
-    font-weight: lighter;
-    font-size: 20px;
-    padding-bottom: 2%;
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 20px;
+  padding-bottom: 2%;
 }
 
 /*Metodo de pago*/
 .contenido_general .metodos_pago {
-    width: 100%;
-    background-color: #ccc;
-    border-radius: 10px;
+  width: 100%;
+  background-color: #ccc;
+  border-radius: 10px;
 }
-.contenido_general .metodos_pago .cont{
-    width: 100%;
-    padding-bottom: 2%;
+.contenido_general .metodos_pago .cont {
+  width: 100%;
+  padding-bottom: 2%;
 }
 .contenido_general .metodos_pago .acordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-    border-radius: 10px;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border-radius: 10px;
 }
 
-.contenido_general .metodos_pago .active,.acordion:hover{
-    background-color: #ffffff;
+.contenido_general .metodos_pago .active,
+.acordion:hover {
+  background-color: #ffffff;
 }
 
 .acordion::after {
-    content: '\25E6';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
+  content: "\25E6";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
 }
 
 .active::after {
-    content: "\25CF";
-    color: #D54646;
+  content: "\25CF";
+  color: #d54646;
 }
 
 .panel {
-    padding: 0 18px;
-    background-color: #ccc;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
+  padding: 0 18px;
+  background-color: #ccc;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
-.contenido_general .metodos_pago .cont .panel p{
-    text-align: center;
-    padding: 2%;
+.contenido_general .metodos_pago .cont .panel p {
+  text-align: center;
+  padding: 2%;
 }
 /*Botones*/
-.contenido_pago .form .botones{
-    width: 95%;
-    padding: 2.5%;
+.contenido_pago .form .botones {
+  width: 95%;
+  padding: 2.5%;
 }
-.contenido_pago .form .botones .btnenvios{
-    width: 100%
+.contenido_pago .form .botones .btnenvios {
+  width: 100%;
 }
-.contenido_pago .form .botones .btnenvios a{
-    text-decoration: none;
-    color: #F63B3B;
+.contenido_pago .form .botones .btnenvios a {
+  text-decoration: none;
+  color: #f63b3b;
 }
-.contenido_pago .form .botones .btn_cpago{
-    width: 95%;
-    text-align: end;
-    padding: 2.5%;
+.contenido_pago .form .botones .btn_cpago {
+  width: 95%;
+  text-align: end;
+  padding: 2.5%;
 }
-.contenido_pago .form .botones .btn_cpago a{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #F63B3B;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #ffffff;
+.contenido_pago .form .botones .btn_cpago a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f63b3b;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
 }
 /* PIE */
-.contenido_pago .form .pie{
-    width: 95%;
-    padding: 2.5%;
+.contenido_pago .form .pie {
+  width: 95%;
+  padding: 2.5%;
 }
-.contenido_pago .form .pie .submenu{
-    width: 100%;
-    overflow: auto;
+.contenido_pago .form .pie .submenu {
+  width: 100%;
+  overflow: auto;
 }
-.contenido_pago .form .pie .submenu ul li{
-    width: 33.3%;
-    float: left;
-    text-align: center;
-    padding-top: 5%;
+.contenido_pago .form .pie .submenu ul li {
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  padding-top: 5%;
 }
-.contenido_pago .form .pie .submenu ul li a{
-    text-decoration: none;
-    color: #F63B3B;
+.contenido_pago .form .pie .submenu ul li a {
+  text-decoration: none;
+  color: #f63b3b;
 }
-.contenido_pago .form .pie p{
-    clear: both;
-    color: #F63B3B;
-    padding-top: 5%;
-    text-align: center;
+.contenido_pago .form .pie p {
+  clear: both;
+  color: #f63b3b;
+  padding-top: 5%;
+  text-align: center;
 }
 /*Productos*/
-.contenido_pago .product .tproductos{
-    width: 100%;
-    overflow: auto;
-    padding-bottom: 5%;
+.contenido_pago .product .tproductos {
+  width: 100%;
+  overflow: auto;
+  padding-bottom: 5%;
 }
-.contenido_pago .product .tproductos .contimg{
-    width: 15.3%;
-    float: left;
-    padding: 1%;
+.contenido_pago .product .tproductos .contimg {
+  width: 15.3%;
+  float: left;
+  padding: 1%;
 }
-.contenido_pago .product .tproductos .context{
-    width: 60.3%;
-    float: left;
-    padding: 1%;
-    text-align: center;
+.contenido_pago .product .tproductos .context {
+  width: 60.3%;
+  float: left;
+  padding: 1%;
+  text-align: center;
 }
-.contenido_pago .product .tproductos .contprecio{
-    width: 15.3%;
-    float: left;
-    padding: 1%;
-    text-align: end;
+.contenido_pago .product .tproductos .contprecio {
+  width: 15.3%;
+  float: left;
+  padding: 1%;
+  text-align: end;
 }
-.contenido_pago .product .tproductos .contimg img{
-    width: 100%;
+.contenido_pago .product .tproductos .contimg img {
+  width: 100%;
 }
 /*montos*/
-.contenido_pago .product .montos{
-    width: 100%;
-    padding-bottom: 5%;
+.contenido_pago .product .montos {
+  width: 100%;
+  padding-bottom: 5%;
 }
-.contenido_pago .product .montos p{
-    font-weight: bold;
-    font-size: 20px;
+.contenido_pago .product .montos p {
+  font-weight: bold;
+  font-size: 20px;
 }
-.contenido_pago .product .montos .cont_monto{
+.contenido_pago .product .montos .cont_monto {
+  width: 100%;
+  overflow: auto;
+}
+.contenido_pago .product .montos .cont_monto .text {
+  width: 48%;
+  float: left;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 4%;
+  padding-top: 4%;
+}
+.contenido_pago .product .montos .cont_monto .precio {
+  width: 48%;
+  float: right;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 4%;
+  padding-top: 4%;
+}
+.contenido_pago .product .montos .cont_monto .precio p {
+  text-align: end;
+}
+
+/*Responsive 360px*/
+@media screen and (max-width: 360px) {
+  .contenido_pago .product {
+    display: none;
+  }
+  .contenido_pago .form {
     width: 100%;
+    padding: 0;
+  }
+  .contenido_pago .migas_pan {
+    width: 75%;
     overflow: auto;
-}
-.contenido_pago .product .montos .cont_monto .text{
-    width: 48%;
-    float: left;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 4%;
-    padding-top: 4%;
-}
-.contenido_pago .product .montos .cont_monto .precio{
-    width: 48%;
-    float: right;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 4%;
-    padding-top: 4%;
-}
-.contenido_pago .product .montos .cont_monto .precio p{
-    text-align: end;
-}
+    padding: 0 12.5%;
+  }
+  /*BOTONES*/
+  .contenido_pago .form .botones .btn_cpago a {
+    padding: 10px 15px;
+  }
 
-
+  /*PIE*/
+}
