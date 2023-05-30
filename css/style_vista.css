@@ -32,6 +32,7 @@
 }
 .contenedor1 .central img {
   width: 100%;
+  border-radius: 20px;
 }
 .contenedor1 .central .circulos {
   width: 25%;
@@ -41,6 +42,7 @@
 .contenedor1 .central .circulos img {
   width: 20%;
   margin-top: 5%;
+  cursor: pointer;
 }
 .contenedor1 .Derecha {
   width: 40%;
@@ -117,6 +119,108 @@
   padding-right: 8px;
   text-decoration: none;
 }
+/* Anuncio */
+dialog {
+  width: 250px;
+  height: 200;
+  background-color: white;
+  border: 10px solid #000000;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: slideIn 0.5s ease;
+  position: fixed;
+  overflow: auto;
+}
+
+dialog.closing {
+  animation: slideOut 0.5s ease; /* Animación de desaparición */
+}
+
+dialog[open] {
+  display: block;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+dialog .entorno {
+  padding: 10px;
+}
+
+dialog .entorno .titulo {
+  margin-bottom: 10px;
+}
+
+.entorno .titulo h2 {
+  color: black;
+}
+
+.entorno .pregunta a {
+  text-decoration: none;
+}
+
+.entorno .pregunta a h6 {
+  color: orange;
+}
+
+dialog .entorno .pregunta {
+  margin-top: 10px;
+}
+
+dialog .entorno .formulario {
+  margin-top: 10px;
+}
+
+.formulario .correo input {
+  background-color: #d9d9d9;
+  border: 5px solid #d9d9d9;
+  border-radius: 20px;
+}
+.formulario .contraseña input {
+  background-color: #d9d9d9;
+  border: 5px solid #d9d9d9;
+  border-radius: 20px;
+}
+
+dialog .entorno .Correo,
+dialog .entorno .Contraseña {
+  margin-bottom: 10px;
+}
+
+dialog .entorno .boton {
+  margin-top: 10px;
+
+  text-align: center;
+}
+
+dialog .entorno .salir {
+  width: 100%;
+  text-align: right;
+}
+
+dialog .entorno .salir span {
+  padding: 5px 10px 7px;
+  cursor: pointer;
+  color: black;
+}
+
+dialog .entorno .salir span:hover {
+  background-color: gray;
+}
+
+.entorno #sibtn p {
+  margin: auto;
+  width: 30%;
+  color: black;
+  background-color: orange;
+  border: 5px solid orange;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
 /*btn agregar carrito*/
 .Derecha .Agregar {
   width: 100%;
@@ -133,6 +237,7 @@
 }
 .Derecha .Descuento {
   margin-top: 10%;
+  cursor: pointer;
   background-color: #d9d9d9;
   border: 5px solid #d9d9d9;
   border-radius: 20px;
@@ -143,4 +248,91 @@
 .Derecha .Ventas {
   margin-top: 10%;
   width: 100%;
+}
+
+/*RESPONSIVE * abra imagenes como imagen01,imagne02,imagen03 seran oclutadas en el responsive de 360*/
+
+@media only screen and (max-width: 360px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .contenedor .contenedor1 {
+    flex-direction: column;
+    width: 95%;
+    background-color: white;
+    padding: 2.5%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contenedor .Izquierda {
+    order: 1;
+    width: 100%;
+    text-align: center;
+  }
+
+  .Izquierda .imagen01 img,
+  .Izquierda .imagen02 img,
+  .Izquierda .imagen03 img {
+    display: none;
+  }
+
+  .contenedor1 .central {
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
+
+  .contenedor1 .central .circulos {
+    margin-top: 5%;
+  }
+
+  .contenedor1 .Derecha {
+    order: 3;
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  .Derecha .Titulo h2 {
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .Derecha .Marca h4 {
+    text-align: center;
+    margin-top: 15%;
+  }
+
+  .Derecha .P_T_C {
+    text-align: center;
+  }
+
+  .Derecha .P_T_C .Precio .p1,
+  .Derecha .P_T_C .Precio .p2 {
+    width: 100%;
+  }
+
+  .Derecha .P_T_C .share .Compartir,
+  .Derecha .P_T_C .share .Imagen {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .Derecha .C_A .Cantidades .btncantidad {
+    width: 100%;
+    padding: 5% 0;
+    text-align: center;
+  }
+
+  .Derecha .C_A .Cantidades .btncantidad input {
+    width: 70%;
+    margin-top: 5%;
+  }
+  .Derecha .Agregar {
+    padding-bottom: 10%;
+    margin: auto;
+  }
 }

@@ -43,3 +43,154 @@
   text-decoration: none;
   text-align: center;
 }
+
+
+/*   ANUNCIO  */
+
+dialog {
+  width: 800px;
+  height: 300px;
+  background-color: white;
+  border: 10px solid #000000;
+  border-radius: 20px;
+  top: 1%;
+  left: 0;
+  margin: auto;
+  animation: slideIn 0.5s ease;
+  position: fixed;
+  
+}
+dialog.closing {
+  animation: slideOut 0.5s ease; /* Animación de desaparición */
+}
+dialog[open] {
+  display: block;
+}
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.55);
+  
+}
+.entorno .texto p {
+  color: BLACK;
+  font-size: 25px;
+  text-align: center;
+  padding: 5%;
+}
+.entorno .texto p a{
+  background-color: orange;
+  border: 5px solid orange;
+  border-radius: 20px;
+  color: black;
+  text-decoration: none;
+}
+dialog .entorno .salir {
+  width: 100%;
+  padding-top: 1%;
+  text-align: end;
+  position: absolute;
+}
+dialog .entorno .salir span {
+  padding-top: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 7px;
+  cursor: pointer;
+}
+dialog .entorno .salir span:hover {
+  background-color: gray;
+}
+
+.envio .texto p{
+  color: BLACK;
+  font-size: 75px;
+  text-align: center;
+  padding: 5%;
+}
+#envio .entorno .aceptar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Espacio superior opcional */
+}
+#envio .entorno .aceptar #sibtn {
+  padding-bottom: 7px;
+  cursor: pointer;
+}
+
+#envio .entorno .aceptar #sibtn p {
+  
+  color: black;
+  width: 100%;
+  font-size: 25px;
+  text-align: center;
+  background-color: orange;
+  border: 5px solid orange;
+  border-radius: 20px;
+}
+
+
+
+
+/* RESPONSIVE */
+@media only screen and (max-width: 360px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Resto de estilos */
+  .recuperar {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .recuperar .texto {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .recuperar form {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .recuperar input[type="email"],
+  .recuperar input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .recuperar a {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .entorno .texto p {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    padding: 5%;
+  }
+  
+  dialog {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .entorno .texto p a {
+    font-size: 15px;
+    text-align: center;
+  }
+}

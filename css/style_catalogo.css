@@ -72,7 +72,11 @@
 .catalogo .ropa a {
   text-decoration: none;
 }
-
+.catalogo .ropa .conttxt {
+  display: block;
+  width: 100%;
+  height: 70px;
+}
 /*Estilo listas*/
 .listas_siguientes {
   width: 100%;
@@ -118,6 +122,15 @@
     width: 40%;
     padding: 3%;
     margin: 2%;
-    float: left;
+  }
+  .catalogo .ropa .conttxt {
+    height: 70px;
+  }
+  .catalogo .ropa .conttxt h3,
+  h4 {
+    font-size: 15px;
+  }
+  .catalogo .ropa:hover {
+    transform: none;
   }
 }

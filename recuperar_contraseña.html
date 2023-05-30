@@ -32,12 +32,54 @@
         </div>
       </div>
     </div>
+    <div class="cabecera2" id="cabe2">
+      <div class="barra">
+        <span onclick=" openNav() ">&#9776;</span>
+      </div>
+      <div id="myNav" class="overlay">
+        <a href="" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="index.html">Inicio</a>
+          <a href="catalogo.html">Tienda</a>
+          <a href="nosotros.html">Nosotros</a>
+          <a href="contacto.html">Contacto</a>
+          <br />
+          <hr />
+          <a href="ini_sesion.html">Cuenta</a>
+        </div>
+      </div>
+      <div class="logo">
+        <img src="imagenes/logo.png" alt="" />
+      </div>
+      <div class="menu_logo">
+        <a href=""><img src="imagenes/logo_usuario.png" alt="" /></a>
+        <a href="carrito.html"><img src="imagenes/bolsa.png" alt="" /></a>
+      </div>
+    </div>
+    <!--- Anuncio -->
+    <dialog id="anuncio">
+      <div class="entorno">
+        <div class="salir">
+          <span id="closebtn">X</span>
+          <div class="texto">
+            <p>
+              !Hola! Esta página te ayudara recuperar tu contraseña a traves de
+              un correo de recuperacion que se enviara a su correo personal.
+            </p>
+            <p>
+              <a href="contacto.html">¿Problemas? Contactanos</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </dialog>
 
+    <!---- Entorno-->
     <div class="recuperar">
       <div class="texto">
         <h2>¿Olvidaste tu contraseña?</h2>
       </div>
-      <form action="recuperar_contraseña">
+      <form id="recuperarForm" action="recuperar_contraseña.html">
         <p>
           <input name="correo" type="email" placeholder="*Correo Electronico" />
         </p>
@@ -47,6 +89,21 @@
       </form>
       <a href="index.html"><h2>Volver</h2></a>
     </div>
+
+    <!--- Dialogo de Envio-->
+    <dialog id="envio">
+      <div class="entorno">
+        <div class="texto">
+          <p>
+            Enviamos un correo de recuperacion de manera correcta, se le enviara
+            a la pagina de iniciar sesion
+          </p>
+        </div>
+        <div class="aceptar">
+          <span id="sibtn"><p>Aceptar</p></span>
+        </div>
+      </div>
+    </dialog>
     <!--pie-->
     <div class="pie">
       <div class="titulo">
@@ -69,5 +126,7 @@
         <p>&copy; RELEVANT - Todos los derechos reservados</p>
       </div>
     </div>
+    <script src="js/menu.js"></script>
+    <script src="js/recuperar_contraseña.js"></script>
   </body>
 </html>

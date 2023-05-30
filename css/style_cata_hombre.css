@@ -1,5 +1,5 @@
 /*Titulo*/
-.titulo {
+.tituloP {
   width: 96%;
   padding: 1.5%;
   text-align: center;
@@ -27,6 +27,7 @@
   width: 100%;
 }
 .catalogo .ropa a {
+  display: block;
   text-decoration: none;
 }
 /*barra de busqueda*/
@@ -40,4 +41,22 @@
   padding: 1.5%;
   border-radius: 20px;
   font-size: 20px;
+}
+@media screen and (max-width: 360px) {
+  /*ESTILO PRODUCTOS*/
+  .catalogo .ropa {
+    width: 40%;
+    padding: 3%;
+    margin: 2%;
+  }
+  .catalogo .ropa .conttxt {
+    height: 70px;
+  }
+  .catalogo .ropa .conttxt h3,
+  h4 {
+    font-size: 15px;
+  }
+  .catalogo .ropa:hover {
+    transform: none;
+  }
 }
