@@ -100,3 +100,24 @@
   font-weight: bolder;
   text-decoration: underline;
 }
+
+/*RESPONSIVE*/
+@media screen and (max-width: 360px) {
+  /*Estilo submenu*/
+  .lista_marca .marcas {
+    width: 100%;
+    margin: 0;
+  }
+  .lista_marca .marcas li img {
+    width: 60px;
+    height: 40px;
+  }
+
+  /*ESTILO PRODUCTOS*/
+  .catalogo .ropa {
+    width: 40%;
+    padding: 3%;
+    margin: 2%;
+    float: left;
+  }
+}

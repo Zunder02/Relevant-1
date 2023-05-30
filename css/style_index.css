@@ -3,6 +3,9 @@
   padding: 0;
 }
 /*estilo del menu*/
+.cabecera2 {
+  display: none;
+}
 .cabecera {
   width: 100%;
   height: 100px;
@@ -144,6 +147,9 @@
 }
 
 /*estilo del banner*/
+.banner2 {
+  display: none;
+}
 .banner {
   width: 100%;
   height: 100vh;
@@ -215,13 +221,14 @@
 }
 dialog {
   width: 600px;
-  height: 580px;
+  height: 560px;
   background-color: #ffffff;
   border: 10px solid #000000;
   top: 1%;
   left: 30%;
   animation: slideIn 0.5s ease;
   position: fixed;
+  overflow: hidden;
 }
 dialog.closing {
   animation: slideOut 0.5s ease; /* Animación de desaparición */
@@ -277,10 +284,7 @@ dialog .modal_img .btn_salir {
   position: absolute;
 }
 dialog .modal_img .btn_salir span {
-  padding-top: 7px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 7px;
+  padding: 7px 10px;
   cursor: pointer;
 }
 dialog .modal_img .btn_salir span:hover {
@@ -380,4 +384,204 @@ dialog .modal_img .btn_unete a:hover {
 .contenedor_genero .contenido .cont .btn a:hover {
   background-color: #e0e0e0;
   color: #000000;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 360px) {
+  dialog {
+    width: 300px;
+    height: 300px;
+    top: 25%;
+    left: 7%;
+  }
+  .modal_img .txt {
+    width: 80%;
+    transform: translateY(-160px);
+  }
+  .modal_img .txt p {
+    color: #ffffff;
+    font-size: 12px;
+  }
+  dialog .modal_img .btn_unete a {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 3% 20%;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  dialog .modal_img .btn_unete {
+    transform: translateY(-160px);
+  }
+  /*MENU RESPONSIVE*/
+  .cabecera {
+    display: none;
+  }
+  .cabecera2 {
+    display: block;
+    width: 90%;
+    padding: 2% 5%;
+    height: 70px;
+    position: fixed;
+    z-index: 3;
+    overflow: hidden;
+  }
+  .cabecera2 .barra {
+    width: 33.3%;
+    float: left;
+    line-height: 80px;
+  }
+  .cabecera2 .barra span {
+    color: #ffffff;
+  }
+  .cabecera2 .logo {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+  }
+  .cabecera2 .logo img {
+    width: 80%;
+  }
+  .cabecera2 .menu_logo {
+    width: 33.3%;
+    float: left;
+    text-align: end;
+    line-height: 100px;
+  }
+  .cabecera2 .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #f1f1f1;
+  }
+
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  .menu_logo img {
+    width: 35px;
+    height: 35px;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .show {
+    display: block;
+  }
+  /*BANNER RESPONSIVE*/
+  .banner {
+    display: none;
+  }
+  .banner2 {
+    display: block;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .banner2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .banner2 .activo {
+    opacity: 1;
+  }
+  .txt_banner {
+    transform: translateY(-250px);
+  }
+  .btn_banner {
+    transform: translateY(-200px);
+  }
+  /*Contenido */
+  .contenedor .contenido {
+    padding-top: 0;
+    padding-bottom: 10%;
+  }
+  .contenedor .contenido .cont {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 5%;
+  }
+  /*Contenido por categoria*/
+  .contenedor_genero .contenido .cont {
+    width: 96%;
+  }
+  /*PIE*/
+  .pie .submenu {
+    width: 100%;
+    float: none;
+    clear: both;
+    overflow: auto;
+    margin: 5% 0;
+  }
 }
